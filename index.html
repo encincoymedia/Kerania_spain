@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Alicatados, suelos porcelánicos, gran formato y reformas en Valencia, Castellón y Alicante. Conoce los servicios de Kerania y cuéntanos tu proyecto.">
+  <title>Revestimientos y reformas en Comunidad Valenciana | Kerania</title>
+  <link rel="canonical" href="https://kerania.es/">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css?v=coverage-map-15">
+</head>
+<body>
+
+  <!-- Scroll Progress Bar -->
+  <div class="scroll-progress-bar" id="scroll-progress"></div>
+
+  <!-- ============================================================
+       01 — HEADER
+       ============================================================ -->
+  <header class="header" id="header">
+    <div class="container">
+      <div class="header__inner">
+        <a href="index.html" class="header__logo" aria-label="Kerania, página de inicio">
+          <img src="Logos kerania nueva web/logo_kerania_spain.webp" alt="KERANIA" class="header__logo-img">
+        </a>
+
+        <nav class="header__nav" id="desktop-nav" aria-label="Navegación principal">
+          <a href="index.html" class="header__nav-link active" aria-current="page">Inicio</a>
+          <details class="header__services-menu">
+            <summary class="header__nav-link" data-section-link="#servicios">Servicios</summary>
+            <div class="header__services-dropdown">
+              <a href="servicios/instalaciones-revestimientos/index.html">Instalaciones y revestimientos</a>
+              <a href="servicios/reformas-construccion/index.html">Reformas y construcción</a>
+              <a href="servicios/acabados-detalles-especiales/index.html">Acabados y detalles especiales</a>
+              <a href="servicios/subcontratacion-mantenimiento/index.html">Subcontratación y mantenimiento</a>
+            </div>
+          </details>
+          <a href="proyectos/index.html" class="header__nav-link">Proyectos</a>
+          <a href="nosotros/index.html" class="header__nav-link">Kerania</a>
+          <a href="contacto/index.html" class="header__nav-link">Contacto</a>
+        </nav>
+
+        <a href="contacto/index.html#solicitud" class="header__cta">Solicitar presupuesto</a>
+
+        <button class="header__menu-toggle" id="menu-toggle" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="mobile-nav">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Nav -->
+  <nav class="mobile-nav" id="mobile-nav" aria-label="Navegación móvil" aria-hidden="true">
+    <a href="index.html" onclick="closeMobileNav()" aria-current="page">Inicio</a>
+    <details class="mobile-services-menu">
+      <summary>Servicios</summary>
+      <div class="mobile-services-dropdown">
+        <a href="servicios/instalaciones-revestimientos/index.html">Instalaciones y revestimientos</a>
+        <a href="servicios/reformas-construccion/index.html">Reformas y construcción</a>
+        <a href="servicios/acabados-detalles-especiales/index.html">Acabados y detalles especiales</a>
+        <a href="servicios/subcontratacion-mantenimiento/index.html">Subcontratación y mantenimiento</a>
+      </div>
+    </details>
+    <a href="proyectos/index.html" onclick="closeMobileNav()">Proyectos</a>
+    <a href="nosotros/index.html" onclick="closeMobileNav()">Kerania</a>
+    <a href="contacto/index.html" onclick="closeMobileNav()">Contacto</a>
+    <a href="contacto/index.html#solicitud" onclick="closeMobileNav()" style="margin-top: 1rem; font-size: 0.85rem; letter-spacing: 0.1em; border-bottom: 1px solid #ADC75A; padding-bottom: 0.3rem;">Solicitar presupuesto</a>
+  </nav>
+
+
+  <!-- ============================================================
+       02 — HERO (Split Screen)
+       ============================================================ -->
+  <main id="contenido">
+  <section class="hero" id="hero">
+    <div class="hero__main">
+    <!-- Left column — Content -->
+    <div class="hero__left">
+      <div class="hero__dot-grid" aria-hidden="true"></div>
+      <div class="hero__left-content">
+        <p class="hero__title" lang="en">
+          <span>Dream it Today.</span>
+          <span class="hero__title-accent">Enjoy it tomorrow</span>
+        </p>
+
+        <h1 class="hero__seo-heading">Revestimientos y reformas en la Comunidad Valenciana</h1>
+<p class="hero__subtitle">Alicatados, suelos porcelánicos y colocación de gran formato para viviendas y espacios profesionales en Valencia, Castellón y Alicante.</p>
+
+        <div class="hero__actions">
+          <a href="proyectos/index.html" class="hero__btn-outline">VER PROYECTOS</a>
+          <a href="nosotros/index.html" class="hero__btn-link">CONOCE KERANIA</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Diagonal transition strip -->
+    <div class="hero__diagonal" aria-hidden="true"></div>
+
+    <!-- Right column — Overlapping Architectural Image Cards -->
+    <div class="hero__right">
+      <div class="hero__cards-wrapper">
+
+        <!-- Main Center Card -->
+        <div class="hero__card hero__card--main">
+          <img src="Imagenes/image_hero.jpg" alt="Pavimento de gran formato y acabados de lujo por Kerania">
+        </div>
+
+        <!-- Top Left Overlapping Card -->
+        <div class="hero__card hero__card--top-left">
+          <img src="Imagenes/banos_home.jpg" alt="Reformas y revestimientos de baños de alta gama">
+        </div>
+
+        <!-- Bottom Right Overlapping Card -->
+        <div class="hero__card hero__card--bottom-right">
+          <img src="Imagenes/imagen_equipo_especializado.jpg" alt="Equipo de precisión y colocación técnica">
+        </div>
+
+
+
+      </div>
+    </div>
+    </div>
+
+    <!-- Hero Bottom Bar: Logos Carousel + Scroll Indicator -->
+    <div class="hero__bottom-bar">
+      <div class="hero__logos-bar">
+        <div class="logos-carousel__wrapper">
+          <div class="logos-carousel__track">
+            <!-- Set 1 -->
+            <div class="logos-carousel__item"><img src="Imagenes/logos_clientes/agruna.png" alt="Agruna" loading="lazy"></div>
+            <div class="logos-carousel__item"><img src="Imagenes/logos_clientes/bentley.png" alt="Bentley" loading="lazy"></div>
+            <div class="logos-carousel__item"><img src="Imagenes/logos_clientes/bugatti.png" alt="Bugatti" loading="lazy"></div>
+            <div class="logos-carousel__item"><img src="Imagenes/logos_clientes/caretta.png" alt="Caretta" loading="lazy"></div>
+            <div class="logos-carousel__item"><img src="Imagenes/logos_clientes/edicover.png" alt="Edicover" loading="lazy"></div>
+            <div class="logos-carousel__item"><img src="Imagenes/logos_clientes/eltecna-ag.png" alt="Eltecna AG" loading="lazy"></div>
+            <div class="logos-carousel__item"><img src="Imagenes/logos_clientes/hrs.png" alt="HRS" loading="lazy"></div>
+            <div class="logos-carousel__item"><img src="Imagenes/logos_clientes/mclaren.png" alt="McLaren" loading="lazy"></div>
+            <div class="logos-carousel__item"><img src="Imagenes/logos_clientes/partner1.png" alt="Partner 1" loading="lazy"></div>
+            <div class="logos-carousel__item"><img src="Imagenes/logos_clientes/partner2.png" alt="Partner 2" loading="lazy"></div>
+            <div class="logos-carousel__item"><img src="Imagenes/logos_clientes/partner3.png" alt="Partner 3" loading="lazy"></div>
+            <div class="logos-carousel__item"><img src="Imagenes/logos_clientes/partner4.png" alt="Partner 4" loading="lazy"></div>
+            <div class="logos-carousel__item"><img src="Imagenes/logos_clientes/partner5.png" alt="Partner 5" loading="lazy"></div>
+            <div class="logos-carousel__item"><img src="Imagenes/logos_clientes/partner6.png" alt="Partner 6" loading="lazy"></div>
+            <div class="logos-carousel__item"><img src="Imagenes/logos_clientes/rolls.png" alt="Rolls-Royce" loading="lazy"></div>
+            <div class="logos-carousel__item"><img src="Imagenes/logos_clientes/ruedi.png" alt="Ruedi" loading="lazy"></div>
+            <div class="logos-carousel__item"><img src="Imagenes/logos_clientes/schmohl.png" alt="Schmohl" loading="lazy"></div>
+            <div class="logos-carousel__item"><img src="Imagenes/logos_clientes/steiner.png" alt="Steiner" loading="lazy"></div>
+            <div class="logos-carousel__item"><img src="Imagenes/logos_clientes/vito.png" alt="Vito" loading="lazy"></div>
+
+            <!-- Duplicated Set 2 for seamless loop -->
+            <div class="logos-carousel__item" aria-hidden="true"><img src="Imagenes/logos_clientes/agruna.png" alt="" loading="lazy"></div>
+            <div class="logos-carousel__item" aria-hidden="true"><img src="Imagenes/logos_clientes/bentley.png" alt="" loading="lazy"></div>
+            <div class="logos-carousel__item" aria-hidden="true"><img src="Imagenes/logos_clientes/bugatti.png" alt="" loading="lazy"></div>
+            <div class="logos-carousel__item" aria-hidden="true"><img src="Imagenes/logos_clientes/caretta.png" alt="" loading="lazy"></div>
+            <div class="logos-carousel__item" aria-hidden="true"><img src="Imagenes/logos_clientes/edicover.png" alt="" loading="lazy"></div>
+            <div class="logos-carousel__item" aria-hidden="true"><img src="Imagenes/logos_clientes/eltecna-ag.png" alt="" loading="lazy"></div>
+            <div class="logos-carousel__item" aria-hidden="true"><img src="Imagenes/logos_clientes/hrs.png" alt="" loading="lazy"></div>
+            <div class="logos-carousel__item" aria-hidden="true"><img src="Imagenes/logos_clientes/mclaren.png" alt="" loading="lazy"></div>
+            <div class="logos-carousel__item" aria-hidden="true"><img src="Imagenes/logos_clientes/partner1.png" alt="" loading="lazy"></div>
+            <div class="logos-carousel__item" aria-hidden="true"><img src="Imagenes/logos_clientes/partner2.png" alt="" loading="lazy"></div>
+            <div class="logos-carousel__item" aria-hidden="true"><img src="Imagenes/logos_clientes/partner3.png" alt="" loading="lazy"></div>
+            <div class="logos-carousel__item" aria-hidden="true"><img src="Imagenes/logos_clientes/partner4.png" alt="" loading="lazy"></div>
+            <div class="logos-carousel__item" aria-hidden="true"><img src="Imagenes/logos_clientes/partner5.png" alt="" loading="lazy"></div>
+            <div class="logos-carousel__item" aria-hidden="true"><img src="Imagenes/logos_clientes/partner6.png" alt="" loading="lazy"></div>
+            <div class="logos-carousel__item" aria-hidden="true"><img src="Imagenes/logos_clientes/rolls.png" alt="" loading="lazy"></div>
+            <div class="logos-carousel__item" aria-hidden="true"><img src="Imagenes/logos_clientes/ruedi.png" alt="" loading="lazy"></div>
+            <div class="logos-carousel__item" aria-hidden="true"><img src="Imagenes/logos_clientes/schmohl.png" alt="" loading="lazy"></div>
+            <div class="logos-carousel__item" aria-hidden="true"><img src="Imagenes/logos_clientes/steiner.png" alt="" loading="lazy"></div>
+            <div class="logos-carousel__item" aria-hidden="true"><img src="Imagenes/logos_clientes/vito.png" alt="" loading="lazy"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero__scroll">
+        <span class="hero__scroll-text">SCROLL</span>
+        <div class="hero__scroll-line"></div>
+      </div>
+    </div>
+  </section>
+  <section class="intro" id="intro">
+    <div class="container">
+      <div class="intro__inner">
+        <div class="intro__left reveal">
+          <div class="intro__image-wrapper">
+            <div class="intro__image">
+              <img src="Imagenes/imagen_kerania_1.png" alt="Kerania — Ejecución arquitectónica" loading="lazy">
+            </div>
+
+            <!-- Stats Overlay Card over Intro Image -->
+            <div class="intro__stats-card">
+              <div class="intro__stat">
+                <div class="intro__stat-line"></div>
+                <div class="intro__stat-content">
+                  <div class="intro__stat-number">20+</div>
+                  <div class="intro__stat-text">Años de experiencia</div>
+                </div>
+              </div>
+
+              <div class="intro__stat">
+                <div class="intro__stat-line"></div>
+                <div class="intro__stat-content">
+                  <div class="intro__stat-number">160+</div>
+                  <div class="intro__stat-text">Proyectos realizados</div>
+                </div>
+              </div>
+
+              <div class="intro__stat">
+                <div class="intro__stat-line"></div>
+                <div class="intro__stat-content">
+                  <div class="intro__stat-number">100%</div>
+                  <div class="intro__stat-text">Proyectos terminados</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="intro__right">
+          <p class="label intro__label reveal">01 / KERANIA</p>
+          <h2 class="intro__headline reveal reveal-delay-1">Más de 20 años dedicados a la colocación y los acabados.</h2>
+          <p class="intro__text reveal reveal-delay-2">Un buen acabado empieza antes de colocar la primera pieza. En Kerania combinamos experiencia en instalación y reformas con atención a la preparación, la distribución del material y los encuentros entre superficies. Nuestra sede está en Almenara, Castellón, y desde aquí atendemos consultas para proyectos en la Comunidad Valenciana. Cuéntanos qué espacio quieres transformar: estudiaremos el tipo de intervención, su ubicación y las necesidades de ejecución.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       04 — SERVICIOS
+       ============================================================ -->
+  <section class="services seo-services" id="servicios">
+<div class="container">
+<div class="seo-section-heading">
+<p class="label">02 / ESPECIALIDADES</p>
+<h2>Soluciones para cada superficie y cada reforma</h2>
+<p>Elige el área que necesitas y descubre qué información nos ayudará a estudiar tu proyecto. Desde la colocación de una superficie hasta una intervención más amplia, el punto de partida es entender el espacio.</p></div>
+<div class="seo-service-grid">
+<article class="seo-service">
+  <img class="seo-service-iso" src="Logos kerania nueva web/iso_k_kerania_spain-02.webp" alt="" aria-hidden="true">
+  <details class="seo-service-disclosure">
+    <summary>
+      <span class="seo-number">01</span>
+      <h3>Instalaciones y revestimientos</h3>
+      <span class="seo-service-teaser">Colocación de cerámica y porcelánico · Revestimientos para baños · Gran formato</span>
+      <span class="seo-service-arrow" aria-hidden="true">→</span>
+    </summary>
+    <div class="seo-service-body">
+<p>Instalamos cerámica, porcelánico y piezas de gran formato en paredes y pavimentos interiores o exteriores. Revisamos el soporte, las medidas, los accesos y los encuentros para planificar una colocación precisa y coherente con el espacio.</p>
+<a class="seo-text-link" href="servicios/instalaciones-revestimientos/index.html">Ver instalaciones y revestimientos →</a>
+
+    </div>
+  </details>
+</article>
+<article class="seo-service">
+  <img class="seo-service-iso" src="Logos kerania nueva web/iso_k_kerania_spain-02.webp" alt="" aria-hidden="true">
+  <details class="seo-service-disclosure">
+    <summary>
+      <span class="seo-number">02</span>
+      <h3>Reformas y construcción</h3>
+      <span class="seo-service-teaser">Reformas integrales · Fachadas y terrazas · Una persona de contacto</span>
+      <span class="seo-service-arrow" aria-hidden="true">→</span>
+    </summary>
+    <div class="seo-service-body">
+<p>Realizamos reformas integrales y actuaciones en fachadas y terrazas. Definimos contigo el alcance, lo que se conserva y las condiciones del espacio, con una persona de contacto para coordinar cada fase del proyecto.</p>
+<a class="seo-text-link" href="servicios/reformas-construccion/index.html">Ver reformas y construcción →</a>
+
+    </div>
+  </details>
+</article>
+<article class="seo-service">
+  <img class="seo-service-iso" src="Logos kerania nueva web/iso_k_kerania_spain-02.webp" alt="" aria-hidden="true">
+  <details class="seo-service-disclosure">
+    <summary>
+      <span class="seo-number">03</span>
+      <h3>Acabados y detalles especiales</h3>
+      <span class="seo-service-teaser">Microcemento · Piedra natural · Acabados especiales · Sellado de juntas</span>
+      <span class="seo-service-arrow" aria-hidden="true">→</span>
+    </summary>
+    <div class="seo-service-body">
+<p>Trabajamos con microcemento, piedra natural, sellado de juntas y acabados especializados. Valoramos el soporte, el uso de la superficie y los encuentros con otros materiales para conseguir un resultado duradero y bien integrado.</p>
+<a class="seo-text-link" href="servicios/acabados-detalles-especiales/index.html">Ver acabados especiales →</a>
+
+    </div>
+  </details>
+</article>
+<article class="seo-service">
+  <img class="seo-service-iso" src="Logos kerania nueva web/iso_k_kerania_spain-02.webp" alt="" aria-hidden="true">
+  <details class="seo-service-disclosure">
+    <summary>
+      <span class="seo-number">04</span>
+      <h3>Subcontratación y mantenimiento</h3>
+      <span class="seo-service-teaser">Reparaciones · Apoyo a constructoras · Subcontratación especializada</span>
+      <span class="seo-service-arrow" aria-hidden="true">→</span>
+    </summary>
+    <div class="seo-service-body">
+<p>Colaboramos con constructoras, estudios y profesionales en instalación, revestimientos, reparaciones y mantenimiento. Revisamos el alcance, la documentación, los materiales y la planificación para integrarnos con claridad en la obra.</p>
+<a class="seo-text-link" href="servicios/subcontratacion-mantenimiento/index.html">Ver subcontratación y mantenimiento →</a>
+
+    </div>
+  </details>
+</article></div></div>
+</section>
+
+
+  <!-- ============================================================
+       05 — PROYECTOS
+       ============================================================ -->
+  <section class="projects" id="proyectos">
+    <div class="container">
+      <div class="projects__header">
+        <p class="label projects__label reveal">03 / PROYECTOS</p>
+        <div class="projects__header-top">
+          <h2 class="projects__headline reveal reveal-delay-1">Proyectos que<br>transforman espacios.<br>
+<span style="color: var(--accent);">Precisión en cada detalle.</span></h2>
+          <p class="projects__intro reveal reveal-delay-2">Cada proyecto combina planificación, conocimiento de los materiales y una ejecución cuidada. Descubre una selección de trabajos de revestimiento, reformas y acabados realizados para viviendas, exteriores y espacios profesionales.</p>
+        </div>
+        <!-- Category Filter Bar -->
+        <div class="projects__filters reveal reveal-delay-2" id="project-filters" role="group" aria-label="Filtrar proyectos por categoría">
+          <button class="projects__filter-btn active" type="button" data-filter="all" aria-pressed="true">Todos</button>
+          <button class="projects__filter-btn" type="button" data-filter="revestimientos" aria-pressed="false">Revestimientos</button>
+          <button class="projects__filter-btn" type="button" data-filter="banos" aria-pressed="false">Baños</button>
+          <button class="projects__filter-btn" type="button" data-filter="fachadas" aria-pressed="false">Fachadas</button>
+          <button class="projects__filter-btn" type="button" data-filter="exteriores" aria-pressed="false">Exteriores</button>
+          <button class="projects__filter-btn" type="button" data-filter="acabados" aria-pressed="false">Acabados</button>
+        </div>
+      </div>
+
+      <!-- Main Gallery Row -->
+      <div class="projects__gallery" id="projects-grid">
+        <div class="project-card reveal" 
+             data-category="revestimientos"
+             data-cursor="VER"
+             data-title="Pavimento porcelánico gran formato"
+             data-location="Comunidad Valenciana"
+             data-desc="Proyecto de pavimento porcelánico pensado para conseguir continuidad visual, resistencia y un acabado preciso en toda la superficie."
+             data-specs="Porcelánico de gran formato · Distribución de juntas · Remates de precisión"
+             data-image="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1200&q=85">
+          <div class="project-card__image">
+            <img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1200&q=85" 
+                 alt="Proyecto de suelos de gran formato" loading="lazy">
+          </div>
+          <div class="project-card__overlay">
+            <div class="project-card__category">Suelos</div>
+            <div class="project-card__title">Pavimento porcelánico gran formato</div>
+            <div class="project-card__location">Comunidad Valenciana</div>
+          </div>
+        </div>
+
+        <div class="project-card reveal reveal-delay-1" 
+             data-category="banos"
+             data-cursor="VER"
+             data-title="Reforma integral baño principal"
+             data-location="Comunidad Valenciana"
+             data-desc="Reforma de baño centrada en mejorar la distribución, renovar los revestimientos y crear un espacio cómodo para el uso diario."
+             data-specs="Reforma de baño · Revestimiento cerámico · Acabados personalizados"
+             data-image="https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?auto=format&fit=crop&w=1000&q=85">
+          <div class="project-card__image">
+            <img src="https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?auto=format&fit=crop&w=1000&q=85" 
+                 alt="Proyecto de baño premium" loading="lazy">
+          </div>
+          <div class="project-card__overlay">
+            <div class="project-card__category">Baños</div>
+            <div class="project-card__title">Reforma integral baño principal</div>
+            <div class="project-card__location">Comunidad Valenciana</div>
+          </div>
+        </div>
+
+        <div class="project-card reveal reveal-delay-2" 
+             data-category="fachadas"
+             data-cursor="VER"
+             data-title="Revestimiento fachada exterior"
+             data-location="Comunidad Valenciana"
+             data-desc="Revestimiento exterior diseñado para proteger la fachada y reforzar la imagen arquitectónica del edificio."
+             data-specs="Fachada exterior · Revestimiento técnico · Resistencia a la intemperie"
+             data-image="https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1000&q=85">
+          <div class="project-card__image">
+            <img src="https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1000&q=85" 
+                 alt="Proyecto de fachada contemporánea" loading="lazy">
+          </div>
+          <div class="project-card__overlay">
+            <div class="project-card__category">Fachadas</div>
+            <div class="project-card__title">Revestimiento fachada exterior</div>
+            <div class="project-card__location">Comunidad Valenciana</div>
+          </div>
+        </div>
+
+        <div class="project-card reveal" 
+             data-category="exteriores"
+             data-cursor="VER"
+             data-title="Terraza porcelánica exterior"
+             data-location="Comunidad Valenciana"
+             data-desc="Renovación de una terraza con pavimento porcelánico exterior, cuidando pendientes, encuentros y zonas de paso."
+             data-specs="Pavimento exterior · Acabado antideslizante · Encuentros y remates"
+             data-image="https://images.unsplash.com/photo-1512915922686-57c11dde9b6b?auto=format&fit=crop&w=800&q=85">
+          <div class="project-card__image">
+            <img src="https://images.unsplash.com/photo-1512915922686-57c11dde9b6b?auto=format&fit=crop&w=800&q=85" 
+                 alt="Proyecto de terraza exterior" loading="lazy">
+          </div>
+          <div class="project-card__overlay">
+            <div class="project-card__category">Terrazas</div>
+            <div class="project-card__title">Terraza porcelánica exterior</div>
+            <div class="project-card__location">Comunidad Valenciana</div>
+          </div>
+        </div>
+
+        <div class="project-card reveal reveal-delay-1" 
+             data-category="acabados"
+             data-cursor="VER"
+             data-title="Revestimiento en piedra natural"
+             data-location="Comunidad Valenciana"
+             data-desc="Proyecto de revestimiento con piedra natural para aportar textura, carácter y continuidad a los paramentos del espacio."
+             data-specs="Piedra natural · Selección de piezas · Colocación especializada"
+             data-image="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=800&q=85">
+          <div class="project-card__image">
+            <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=800&q=85" 
+                 alt="Proyecto de piedra natural" loading="lazy">
+          </div>
+          <div class="project-card__overlay">
+            <div class="project-card__category">Piedra natural</div>
+            <div class="project-card__title">Revestimiento en piedra natural</div>
+            <div class="project-card__location">Comunidad Valenciana</div>
+          </div>
+        </div>
+
+        <div class="project-card reveal reveal-delay-2" 
+             data-category="acabados"
+             data-cursor="VER"
+             data-title="Acabado microcemento residencial"
+             data-location="Comunidad Valenciana"
+             data-desc="Aplicación de microcemento para crear una superficie continua, contemporánea y adaptada al conjunto de la vivienda."
+             data-specs="Microcemento · Superficie continua · Acabado residencial"
+             data-image="https://images.unsplash.com/photo-1600585152220-90363fe7e115?auto=format&fit=crop&w=800&q=85">
+          <div class="project-card__image">
+            <img src="https://images.unsplash.com/photo-1600585152220-90363fe7e115?auto=format&fit=crop&w=800&q=85" 
+                 alt="Detalle de acabados especiales" loading="lazy">
+          </div>
+          <div class="project-card__overlay">
+            <div class="project-card__category">Suelos</div>
+            <div class="project-card__title">Acabado microcemento residencial</div>
+            <div class="project-card__location">Comunidad Valenciana</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="projects__cta reveal">
+        <a href="proyectos/index.html" data-cursor="VER TODOS">Ver todos los proyectos →</a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       06 — DIFERENCIAL / FILOSOFÍA
+       ============================================================ -->
+  <section class="philosophy">
+    <div class="container">
+      <div class="philosophy__inner">
+        <div class="philosophy__image reveal">
+          <img src="Imagenes/banos_home.jpg" alt="Acabados en baño de alta gama Kerania" loading="lazy">
+        </div>
+        <div class="philosophy__content">
+          <h2 class="philosophy__headline reveal">
+            <span>La diferencia está</span>
+            <span>en cómo se coloca.</span>
+          </h2>
+          <p class="philosophy__headline reveal reveal-delay-1" style="color: var(--accent); margin-bottom: var(--spacing-lg);">
+            <span>Cuidamos</span>
+            <span>cada encuentro.</span>
+          </p>
+          <div class="philosophy__line reveal reveal-delay-2"></div>
+          <p class="philosophy__text reveal reveal-delay-3">Una esquina bien resuelta, una transición entre estancias o la distribución de las piezas alrededor de una ventana pueden cambiar la lectura de un espacio. Por eso prestamos atención tanto a las superficies amplias como a los puntos de encuentro. El objetivo es que el acabado tenga coherencia con el proyecto y con el uso que va a recibir. Hablar de estos detalles antes de empezar ayuda a evitar decisiones improvisadas durante la colocación.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       07 — PARA EMPRESAS
+       ============================================================ -->
+  <section class="companies">
+    <div class="container">
+      <div class="companies__inner">
+        <div class="companies__left">
+          <h2 class="companies__headline reveal">Un equipo de ejecución para constructoras, arquitectos e interioristas.</h2>
+          <p class="companies__text reveal reveal-delay-1">Colaboramos con profesionales que necesitan especialistas en colocación y acabados para sus proyectos. Comparte los planos disponibles, las referencias de materiales y las fechas previstas: nos ayudarán a entender qué parte de la ejecución necesitas cubrir. La coordinación empieza por una definición clara de los trabajos y de los detalles que requieren atención. Tanto en una reforma como en una obra nueva, conocer las condiciones de acceso y la relación con otros oficios permite estudiar la colaboración con mayor precisión.</p>
+          <div class="companies__sectors reveal reveal-delay-2">
+            <span class="companies__sector">Constructoras</span>
+            <span class="companies__sector">Arquitectura</span>
+            <span class="companies__sector">Interiorismo</span>
+            <span class="companies__sector">Hospitality</span>
+          </div>
+          <a href="contacto/index.html#solicitud" class="companies__cta reveal reveal-delay-3">Trabaja con Kerania →</a>
+        </div>
+        <div class="companies__right">
+          <div class="companies__image reveal">
+            <img src="Imagenes/imagen_equipo_especializado.jpg" alt="Equipo especializado Kerania" loading="lazy">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       08 — PROCESO
+       ============================================================ -->
+  <section class="seo-coverage" id="cobertura">
+    <div class="container">
+      <div class="seo-coverage-layout">
+        <div class="seo-coverage__map-column">
+          <svg
+            class="coverage-map"
+            viewBox="37 75 468 825"
+            role="group"
+            aria-labelledby="coverage-map-title coverage-map-description">
+            <title id="coverage-map-title">Mapa interactivo de la Comunidad Valenciana</title>
+            <desc id="coverage-map-description">Mapa dividido en Castellón, Valencia y Alicante. Usa el ratón, toca una provincia o navega con el teclado para destacarla.</desc>
+
+            <g id="castellon" class="provincia provincia--castellon" data-province="castellon" role="button" tabindex="0" aria-label="Castellón" aria-pressed="false">
+              <title>Castellón</title>
+              <g class="province-shape" transform="translate(0 50)">
+              <path d="M277.21,292.6c-2.1-4.64-8.22-5.24-12.17-3.23-5.55,2.84-3.99,6.43-6.32,11.43-3.85.21-8.1-.77-8.16-3.92l-.26-13.71c-.07-3.59-8.2-11.24-13.14-6.88l-5.36,4.72c-1.48-2.4-2.74-4.71-4.65-6.72-1.84-3.61-4.82-6.1-8.48-7.8-2.89-3.36-5.89-6.34-9.27-9.19-.36-.84-.19-1.67-.02-2.54l1.73-9.13c.66-3.47,3.81-.87,7.05-3.02,6.04-3.99,6.13-6.03,6.03-14.06l12.99-.41c2.27-.07,3.83-1,5.44-2.52l7.06-6.7c3.55-3.37,1.4-6.62,2.66-10.75,3.08-.94,4.63-3.1,5.91-5.89,3.06-6.65,5.02-13.64,6.21-20.9.43-2.61,1.14-4.91,2.35-7.24,1.53,1.5,3.2,2.17,5.2,1.49,3.66,1.83,7.46,1.54,11.11.07,5.42-2.17,16.34-6.5,13.29-10.83-1.17-1.66-1.94-3.12-1.31-5.28l1.21-4.12c4.67,1.41,5.07-5.18,12.13-10.53l6.67-5.06c.83-.63,1.41-1.45,1.5-2.38.1-1.06-.58-1.96-1.32-2.85l-7.98-9.63c-1.38-1.67-.86-5.71.63-7.32,2.73-2.94,9.82-2.92,9.34-10.54-.15-2.35-.6-4.35-2.87-5.54-1.51-.79-1.65-2.29-1.65-3.79v-16.04c0-1.81-1.32-4.39-2.86-5.3-3.82-2.24-11.04-.86-11.27-3.35-.26-2.78-.2-5.63.51-8.41.34-1.31,2.48-3.26,3.75-3.36l5.99,1.36c4.54-.87,7.54-3.2,11.79-4.5,3.08-.94,4.41-4.36,4.25-7.46-.26-5.11-.37-10.68,2.26-15.25,1.68-2.91,5.76-3.31,8.81-3.8l6.65,7.74c2.39,2.79,5.4,4.87,8.79,6.26,7.16,2.92,12.46-1.07,18.56.31,2.99.68,2.72,4.92,5.03,6.06,2.69,1.32,9.27-5.14,13.36-6l8.14-.28,4.62-2.56c2.06-1.14,5.78-1.3,7.97.12,3.18,2.06,3.78,7.78,8.02,6.35,1.51-.51,2.99,1.01,3.51,2.04.77,1.51.35,3.17-.93,4.35-2.8,2.59-2.76,6.61-.14,9.48,2.05,2.24,4.81,3.5,7.38,5.12,7.76,4.9,12.02,1.1,17.83,4.35,2.48,1.39,5.09,2.15,7.84,3-2.02,4.23-.5,8.18,3.49,9.98l6.62,2.99c1.22.55,1.55,1.85,1.04,3.16-1.78,4.51-3.53,9.05-6.18,13.14l-5.59,8.64c-2.75,4.25-4.09,8.7-4.18,13.88-.05,2.59-1.31,5.26-2.51,7.47l-4.15,7.62c-3.51,4.95-7.43,9.48-11.91,13.56-2.1,1.91-4,3.86-5.38,6.38l-9.64,17.57c-3.39,6.19-12.19,9.74-13.6,18.66-.47,3-1.25,6-2.48,8.74-1.49,3.31-5.24.93-8.95,4.96l-10.8,11.75c-1.6,1.74-2.88,3.6-3.35,5.89l-3.38,16.45c-1.37,3.32-4.83,5.86-7.22,8.47-3.68,4.03-6.7,7.91-8.99,12.86-2.35,5.07-5.26,9.54-8.41,14.18l-11.56,16.97-4.57-1.43c-1.42-.44-2.8-.42-3.96-1.57-2.81-2.8-5.92-5.63-7.92-9.12-.99-1.72-1.58-3.28-4-3.24l-11.38.18c-2.31.04-4.19,1.46-4.56,3.83-.45,2.86-1.63,5.52-3.54,7.79l-7.46,8.84c-.57.67-1.29,1.24-2.04,1.22-2.8-.05-6.75-10.72-8.82-15.28Z"/>
+              </g>
+              <image class="province-logo" href="Comunidad%20valenciana/kerania-logo-mapa.svg" x="247" y="196" width="130" height="48.4" preserveAspectRatio="xMidYMid meet" aria-hidden="true"/>
+              <text class="province-name" x="90" y="885" text-anchor="middle">Castellón</text>
+            </g>
+
+            <g id="valencia" class="provincia provincia--valencia" data-province="valencia" role="button" tabindex="0" aria-label="Valencia" aria-pressed="false">
+              <title>Valencia</title>
+              <g class="province-shape" transform="translate(0 50)">
+              <path d="M123.37,243.32c-2.6.49-4.5-5.2-8.76-5.01-1.77.08-3.64,1.86-5.41,1.54-5.88-2.24-9-7.88-9.02-13.98-.02-7.21-5.67-5.93-8.72-10.16l-5.08-7.03c-.77-1.06-1.02-2.64-.49-3.83,1.09-2.44,6.49-3.09,9.33-.04,2.5,2.69,4.87-2.48,9.47.96,2.04,1.53,4.31.23,6.01-1.09,2.64-2.06,5.06-4.37,5.45-7.89.21-1.9-1.93-4.01-.97-5.8.25-.45.87-.92,1.79-1.07,1.27-.21,3.25.51,3.84,1.86,1.76,3.99,4.04,7.43,7.23,10.37,2.17,2.01,3.01,4.61,3.16,7.78,7.33-.13,14.28-.19,21.25.78,2.49.35,3.38,1.63,4.48,3.65l5.26,5.54c1.6,1.69,1.34,4.03,1.01,6.24-.47,3.16.06,5.39-3.88,6.61l-9.93,3.06c-3.68,2.05-6.98,3.94-11.22,4.73l-14.8,2.77Z"/>
+              <path d="M145.92,499.48c-.1-.51-.27-.85-.87-.81l-4.4-4.72c-2.78-2.98-5.13-6.21-8.18-8.95-.35-.48-.55-2.03-.37-2.69,1.01-3.85.51-8.21,2.15-11.83l4.89-7.55c3.84-5.94,6-12.23,7.1-19.29l4.18-26.73c-2.25-1.87-4.84-2.91-7.68-3.35l-17.71-2.76c-3.21-.5-6.47-.62-9.45-1.91-4.99-2.17-9.77-4.51-15.29-5.12-1.77-.2-3.97-.11-5.3-1.49-2.95-3.08-4.54-7.21-5.34-11.27-2.07-1.56-4.85-1.46-6.97-2.35l-2.77-6.44c-.96-2.24-2.34-4.97-1.72-7.36s.97-4.13.59-6.58-.35-5.5-.12-8c.51-5.56,5.05-8.44,10.11-8.48,3.9-.03,3.88-7.37,7.42-13.83l4.31-7.85,4.47-6.75c1-1.52,2.56-1.6,4.13-.91l5.84,2.57c1.29.57,3.06.75,4.35.02l7.01-3.94c.77-.43,2.29-1.53,2.44-2.53-.05-1.71-.29-4-1.06-5.47-.95-1.84-1.31-3.11-.24-5.11.68-1.26.92-3.02,2.04-4.16,2.79-1.57,4.75-4.02,5.22-7.26,3.12-4.62,4.2-9.64,4.61-15.2l1.22-16.71c.24-3.27-.46-6.36.43-9.62,8.81-5.98,19.02-9.02,29.72-9.76l18.01,3c2.14.68,4.39,1.18,5.96,2.89,1.74,1.89,1.86,4.96.79,7.2-1.51,3.17,1.23,4.56,1.51,5.72.16.66-3.08,3.42-.43,6.58l2.86,3.41c2.34,2.08,6.06,2.02,8.54.2l5.31-3.93c4.6-3.4,8.5.5,11.58,5.08l4.87,7.26c.36.53,1.07,1.42,1.71,1.55,2.73-1.42,5-3.53,7.21-5.67,3.16-3.06,9.07,2.56,9.12,4.92l.29,13.45c.05,2.55,1.32,4.81,3.91,5.43l5.01,1.2c2.27.54,4.06-1.05,4.74-3.22l1.98-6.38c1.1-1.97,3.37-2.82,5.67-3.16,2.15-.31,4.95,1.15,5.82,3.29l3.65,8.97c1.87,4.58,6.97,9.97,9.88,6.69l5.89-6.64c2.93-3.3,5.91-6.66,6.87-11.14.26-1.22.21-3,2.02-3.14,3.9-.31,8.31-.56,12.3-.07.94,2.43,2.58,4.54,4.42,6.42,2.44,2.5,4.43,5.5,7.92,6.72,1.96.68,5.11.86,6.41,2.75.79,1.92.96,4.71,1.08,6.83.12,2.16-1.11,3.93-1.76,5.77-3.39,9.64-9.94,11.25-11.7,20.09l-1.39,6.98c-.38,1.93-1.22,3.6-2.78,4.78-2.86,2.17-4.07,5.06-5.07,8.41-1.26,4.23-2.39,8.28-2.65,12.76-.22,3.84-.69,7.52-1.86,11.22-.59,1.89,1.94,2.23,2.9,5.49l2.86,9.7c2.14,1.74,3.23,4.12,3.63,6.87.77,5.39,2.34,10.4,4.83,15.21l2.94,8.5,3.36,4.95,3.79,8.4c-.34.29-.86.46-1.53.64l1.48,13.92c.36,3.38-.2,7.09,1.75,10.03,1.96,2.95,3.02,6.03,4.71,9.17l8.59,16.02c.49.9.99,1.64.15,2.57-2.47,2.76-5.38,5.38-6.59,9.16l8.69-2.48c1.21-.35,3.26-.43,4.15.69l12.47,15.55c1.84,2.29,3.37,4.51,4.9,7.3-5.79-.39-10.55.91-15.16,3.76-.53.33-1.4.46-1.96.29-.42-.12-.84-.83-.99-1.39-.66-2.48-2.63-3.2-4.95-2.59-6.87,1.78-9.51,9.89-14.51,5.65l-5.56-4.72c-4.61-2.5-9.04.33-11.99,3.8-2.32,2.73-5.77,4-8.58,6.07-2.36,1.74-4.81,3.09-7.72,3.63-7.32,1.38-9.9,5.79-11.87,6.08-6.54.96-14.62-2.28-21.29,2.52-1.52,1.09-2.88,2.98-1.78,4.57l4.78,6.9c1.45,2.09,3.82,2.59,6.16,1.48.72-.34,2.09-1.17,2.91-.79.75.63.14,2.34-.65,3.19-4.71,5.09-10.68,9.25-17.63,10.8-1.97.44-3.72-2.33-3.94-3.93-.56-4.04-3.26-6.69-7.4-6.09l-5.81.84c-.02-1.66.39-3.34-.41-4.7-1.69-2.88-10.36-1.83-16.15,2.73-4.88,3.83-9.93-.91-14.06-5.55-1.31-1.47-2.56-2.34-4.6-1.84l-5.02,1.24c-1.43.03-2.95-1.34-4.37-1.77l.43-5.93c.09-1.22.89-2.12,1.92-2.68,2.78-1.5-.79-4.12-.67-6.08.37-6.11-2.18-16.08-5.86-20.93-1.04-1.36-1.43-3.46-1.91-5.13-.97-3.33-3.95-4.96-7.38-4.06l-13.87,3.61-10.74,1.33c-4.62.15-6.87-3.66-8.65-7.14l-6.25-6.85Z"/>
+              </g>
+              <image class="province-logo" href="Comunidad%20valenciana/kerania-logo-mapa.svg" x="60" y="457" width="130" height="48.4" preserveAspectRatio="xMidYMid meet" aria-hidden="true"/>
+              <text class="province-name" x="271" y="885" text-anchor="middle">Valencia</text>
+            </g>
+
+            <g id="alicante" class="provincia provincia--alicante" data-province="alicante" role="button" tabindex="0" aria-label="Alicante" aria-pressed="false">
+              <title>Alicante</title>
+              <g class="province-shape" transform="translate(0 50)">
+              <path d="M229.34,789.64c-8.43-3.3-12.89-6.8-17.59-14.33l-5.6-8.98c-2.02-3.23-3.82-6.65-6.72-9.15-2.34-2.02-3.24-4.3-4.34-7.12-2.24-5.73-6.08-10.7-9.97-15.43-1.51-1.84-2.26-3.19-2.39-5.73l-.39-7.89c-.13-2.65,7.24-6.76,10.34-22.34l1.55-15.69c.5-5.08-1.78-8.64-5.34-11.6-2.96-2.47-5.22-5.07-9.22-5.95-1.99-.44-3.81-1.13-6.14-.58-.72.17-1.92-.11-2.42-.57s-1.1-1.52-1.1-2.5l-.03-17.85c0-1.45-.41-2.66-1.52-3.61l6.25-3.2c5.44-2.78,9.45-9.91,6.16-15.4,3.06-3.52,4.51-7.44,4.3-12.1-.33-7.02-1.84-13.71-4.16-20.43,6.5-3.85,12.38-1.4,16.15-7.52l3.17-5.14c.98-2.53-.1-4.79-1.17-7.1l-5.48-11.76c-.3-.65.04-1.52.37-1.86,1.56-1.6,5.49.4,8.51,2.22l5.41-1.58c.67-.2,1.65-.26,2.17.29,5.67,5.95,11.77,11.99,18.91,6.23,3-2.42,6.79-3.55,10.58-3.44,3.14.09-1.59,8.08,3.78,6.91l6.82-1.48c1.64-.36,3.02.77,3.29,2.47.67,4.17,3.62,8.04,7.51,7.4,4.8-.79,8.8-3,12.66-5.71,5.16-3.63,12.11-10.13,6.9-12.92-3.75-2.01-6.66,2.59-8.58-.2l-4.55-6.61c2.92-2.62,6.64-3.39,10.4-3.27l9.19.31c4.42.15,6.5-4.58,13.23-5.99,3.74-.79,6.64-2.43,9.74-4.53,3.95-2.67,7.74-5.19,11.05-8.59,2.32-2.38,5.83-1.66,7.94.58,1.9,2.03,3.98,3.95,6.76,4.53,5.26,1.1,8.2-5.28,12.74-6.63.59-.18,1.23-.3,1.73-.06,1.09.52,1.62,5.39,5.41,3.91l5.14-2.02c3.77-1.48,7.6-2.51,11.63-1.78.03,1.39.1,2.83,1.21,3.53,2.08,1.32,4.92-2.81,11.38-.51l5.03.32,12.14,1.64c1.64.22,2.83,1.16,3.33,2.64l1.05,3.13c.35,1.04,1.36,1.61,2.23,1.75,2.25.36,3.12-2.01,4.02-1.92.45.04,4.4,3.97,5.27,5.85l.92,3.68c1.23,2.57,3.51,4.29,5.72,5.98.87.67.97,4.84-1.77,5.64-3.03.88-5.2,3.08-5.96,6.17-1.09,4.43-6.68,2.91-9.31,5.76-5.01,5.42-14.19,15.15-20.75,13.5-3.57-.9-6.66.38-9.02,3.3-2.76,3.4-4.92,7.3-7.11,11.18-1.83,3.24,1.33,6.17.82,7.47-1.09,2.74-2.77,4.95-5.06,7.01-1.24-3.37-5.37-4.05-8.74-2.7l-9.19,3.68c-4.72,1.28-9.04,2.75-13.29,5.25-5.78,3.4-9.01,2.2-11.47,5.68-2.54,3.61-5.76,6.26-9.62,8.39-5.17,2.85-9.25,7.21-10.89,13-.82,2.89,1.89,6.69,1.06,10.22-.98,4.15-6.07.74-9.66,2.52l-6.72,3.33c-1.08.54-1.95,1.19-2.24,2.38-1.5,6.21-5.31,8.35-4.41,13.64l2.65,15.63c.33,1.93-1.14,8.31-2.85,8.2-3.46-.23-6.79-.46-10.25.05-5.81.87-10.73,8.9-11.17,14.36l-1.89,23.26-1.15,11.38c-.27,2.69-2.62,4.99-3.98,7.26l-5.51,9.19c-2.17,3.62-9.96,4.57-10.11,12.14-.09,4.51-.72,8.79-2.45,12.96l-5.38-2.1Z"/>
+              </g>
+              <image class="province-logo" href="Comunidad%20valenciana/kerania-logo-mapa.svg" x="232" y="685" width="130" height="48.4" preserveAspectRatio="xMidYMid meet" aria-hidden="true"/>
+              <text class="province-name" x="452" y="885" text-anchor="middle">Alicante</text>
+            </g>
+          </svg>
+        </div>
+
+        <div class="seo-coverage__content">
+          <p class="label">04 / CERCA DE TU PROYECTO</p>
+          <h2>Revestimientos y reformas en Valencia, Castellón y Alicante</h2>
+          <div class="seo-coverage__text">
+            <p>Nuestra sede está en Almenara, en la provincia de Castellón. Atendemos consultas para trabajos en toda la Comunidad Valenciana, valorando cada solicitud según su ubicación, alcance y necesidades de ejecución. Si estás buscando una empresa para instalar un pavimento, renovar revestimientos o estudiar una reforma, el primer paso es contarnos dónde se encuentra el espacio.</p>
+            <p>Para proyectos en Valencia, Castellón o Alicante, la información inicial es la misma: localidad, tipo de inmueble, superficie aproximada y descripción de los trabajos. No es necesario tener todas las decisiones tomadas. Si todavía estás comparando materiales o definiendo la intervención, explica en qué punto te encuentras para orientar la consulta.</p>
+            <p>La ubicación también influye en la organización. Los accesos, la posibilidad de descargar material o las condiciones del edificio son aspectos que conviene conocer antes de concretar una actuación. Indicar la provincia no sustituye estos detalles: una vivienda, un local comercial y una obra en ejecución pueden requerir preparaciones diferentes.</p>
+            <p>Tanto si eres particular como si coordinas una obra para una empresa, podemos empezar por una consulta sobre tus necesidades. Consulta la disponibilidad para tu localidad y comparte el calendario que tienes en mente. Así podremos valorar el siguiente paso con información útil y expectativas claras.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="process" id="proceso">
+    <div class="container">
+      <div class="process__header">
+        <p class="label reveal">05 / PASO A PASO</p>
+        <h2 class="process__title reveal reveal-delay-1">Cómo trabajamos</h2>
+      </div>
+
+      <div class="process__timeline" id="process-timeline">
+        <!-- Connecting line -->
+        <div class="process__line">
+          <div class="process__line-fill" id="process-line-fill"></div>
+        </div>
+
+        <div class="process__steps">
+          <div class="process__step" data-step="1">
+            <div class="process__step-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3z"/>
+                <path d="M19 10v2a7 7 0 0 1-14 0v-2"/>
+                <line x1="12" y1="19" x2="12" y2="22"/>
+              </svg>
+            </div>
+            <div class="process__step-content">
+              <div class="process__step-number">01</div>
+              <h3 class="process__step-title">Escuchamos</h3>
+              <p class="process__step-desc">Cuéntanos dónde está el inmueble, cómo se utiliza y qué quieres cambiar. Si tienes fotografías, medidas aproximadas o una idea de los materiales, compártelas. Esta primera conversación sirve para identificar el alcance y saber qué información falta antes de estudiar la intervención.</p>
+            </div>
+          </div>
+
+          <div class="process__step" data-step="2">
+            <div class="process__step-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="3" width="18" height="18" rx="2"/>
+                <path d="M3 9h18"/>
+                <path d="M9 21V9"/>
+                <path d="M14 9l4 4"/>
+              </svg>
+            </div>
+            <div class="process__step-content">
+              <div class="process__step-number">02</div>
+              <h3 class="process__step-title">Planificamos</h3>
+              <p class="process__step-desc">Revisamos las necesidades del espacio, los acabados previstos y la organización del trabajo. Es el momento de aclarar qué se conserva, qué se sustituye y qué detalles necesitan definición. El presupuesto y la planificación deben responder al alcance acordado y a las condiciones del proyecto.</p>
+            </div>
+          </div>
+
+          <div class="process__step" data-step="3">
+            <div class="process__step-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
+              </svg>
+            </div>
+            <div class="process__step-content">
+              <div class="process__step-number">03</div>
+              <h3 class="process__step-title">Ejecutamos</h3>
+              <p class="process__step-desc">La ejecución reúne preparación, colocación y remates. Durante esta fase, la comunicación permite resolver las cuestiones que puedan surgir al intervenir sobre el espacio. Prestamos atención a la distribución del material y a los encuentros para mantener una lectura coherente del conjunto.</p>
+            </div>
+          </div>
+
+          <div class="process__step" data-step="4">
+            <div class="process__step-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                <polyline points="22 4 12 14.01 9 11.01"/>
+              </svg>
+            </div>
+            <div class="process__step-content">
+              <div class="process__step-number">04</div>
+              <h3 class="process__step-title">Entregamos</h3>
+              <p class="process__step-desc">Comprobamos el trabajo realizado y repasamos el resultado contigo. Conviene resolver las dudas sobre el acabado y consultar las indicaciones de cuidado correspondientes al material instalado. Conocer cómo utilizar y mantener cada superficie ayuda a conservar su aspecto en el uso diario.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       09 — CTA FINAL
+       ============================================================ -->
+  <section class="seo-faq" id="preguntas">
+<div class="container">
+<div class="seo-section-heading">
+<p class="label">06 / RESOLVEMOS DUDAS</p>
+<h2>Antes de empezar tu instalación o reforma</h2>
+<p>Estas respuestas te ayudarán a preparar la consulta y a identificar las decisiones que conviene revisar antes de intervenir en tu espacio.</p></div>
+<div class="seo-faq-grid">
+<details class="seo-faq-item">
+<summary><span>¿Qué información necesito para pedir un presupuesto?</span><span class="seo-faq-icon" aria-hidden="true"></span></summary>
+<div class="seo-faq-answer"><p>Empieza por la localidad, el tipo de espacio y una descripción de lo que necesitas. Añade medidas aproximadas, fotografías generales y detalles de las zonas sobre las que quieres actuar. Si ya has elegido material, incluye su referencia y formato. Si dispones de planos, también pueden ayudar. No hace falta reunir una documentación perfecta para contactar; estos datos sirven para identificar las siguientes preguntas y valorar si es necesario conocer el espacio con más detalle.</p></div>
+</details>
+<details class="seo-faq-item">
+<summary><span>¿Se puede consultar una instalación sin hacer una reforma integral?</span><span class="seo-faq-icon" aria-hidden="true"></span></summary>
+<div class="seo-faq-answer"><p>Sí. Puedes contactar por un trabajo de alicatado, la colocación de un suelo, un revestimiento o un acabado concreto. Explica qué elementos deben mantenerse y qué zonas se van a intervenir. En una actuación parcial, es especialmente útil conocer los encuentros con superficies existentes y si el inmueble seguirá en uso. El alcance se estudia en función del estado del espacio y de la solución que buscas.</p></div>
+</details>
+<details class="seo-faq-item">
+<summary><span>¿Qué conviene valorar antes de elegir porcelánico de gran formato?</span><span class="seo-faq-icon" aria-hidden="true"></span></summary>
+<div class="seo-faq-answer"><p>Además del color y la textura, considera las dimensiones de la estancia, la distribución de las piezas y los cortes necesarios. Los accesos y la manipulación también forman parte de la planificación. Una muestra puede ayudarte a apreciar el acabado, pero no muestra por sí sola cómo quedará el conjunto. Compartir el plano y la referencia del material permite hablar de juntas, orientaciones y encuentros antes de tomar una decisión definitiva.</p></div>
+</details>
+<details class="seo-faq-item">
+<summary><span>¿Cómo se determina el precio de colocar un revestimiento?</span><span class="seo-faq-icon" aria-hidden="true"></span></summary>
+<div class="seo-faq-answer"><p>El precio depende del alcance real: superficie, material, formato, estado de la base, preparación y dificultad de los remates, entre otros factores. Dos espacios con los mismos metros cuadrados pueden necesitar trabajos diferentes. Por eso interesa comparar presupuestos con una descripción equivalente de lo que incluyen. Envíanos los datos de tu intervención para estudiarla; una cifra genérica por metro cuadrado puede dejar fuera condiciones importantes del trabajo.</p></div>
+</details>
+<details class="seo-faq-item">
+<summary><span>¿Atendéis proyectos en las tres provincias?</span><span class="seo-faq-icon" aria-hidden="true"></span></summary>
+<div class="seo-faq-answer"><p>Atendemos solicitudes en Valencia, Castellón y Alicante desde nuestra sede de Almenara. La disponibilidad se concreta al conocer la localidad, el tamaño de la intervención y las fechas previstas. Indica también si hay restricciones de acceso u horarios del inmueble. Esta información permite valorar la organización del desplazamiento y del trabajo sin dar por hecho un calendario antes de estudiar el proyecto.</p></div>
+</details>
+<details class="seo-faq-item">
+<summary><span>¿Colaboráis con empresas que ya tienen el proyecto definido?</span><span class="seo-faq-icon" aria-hidden="true"></span></summary>
+<div class="seo-faq-answer"><p>Sí, puedes consultar una colaboración para ejecutar una parte concreta de la obra. Comparte la documentación, las mediciones disponibles y las especificaciones del material. Indica qué trabajos necesitas cubrir y cómo se coordinan con el resto de los oficios. Si existen detalles de colocación definidos por arquitectura o interiorismo, conviene incluirlos desde el inicio para que la valoración responda a lo que realmente requiere el proyecto.</p></div>
+</details></div></div>
+</section>
+<section class="final-cta" id="contacto">
+    <div class="container">
+      <p class="label final-cta__label reveal">¿HABLAMOS?</p>
+      <h2 class="final-cta__headline reveal reveal-delay-1">Hablemos de tu reforma o instalación.</h2>
+      <p class="seo-contact-copy">Envíanos la ubicación, una breve descripción y, si dispones de ellos, fotografías o planos. Nos ayudarán a conocer tu proyecto y preparar el siguiente paso. Puedes escribir a info@kerania.es o llamar al +34 621 160 825.</p>
+<a href="contacto/index.html#solicitud" class="final-cta__button reveal reveal-delay-2">Solicitar presupuesto →</a>
+<a class="seo-phone" href="tel:+34621160825">Llamar al +34 621 160 825</a>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       10 — FOOTER
+       ============================================================ -->
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__brand">
+          <div class="footer__logo">
+            <img src="Logos kerania nueva web/logo_kerania_spain_blanco.webp" alt="KERANIA" class="footer__logo-img">
+          </div>
+          <p class="footer__tagline">Instalación, reformas y acabados especializados. La precisión que transforma espacios.</p>
+          <div class="footer__accent-line"></div>
+        </div>
+
+        <div class="footer__col">
+          <div class="footer__nav-title">Navegación</div>
+          <ul class="footer__nav-list">
+            <li>
+<a href="index.html">Inicio</a></li>
+            <li>
+<a href="#servicios">Servicios</a></li>
+            <li>
+<a href="proyectos/index.html">Proyectos</a></li>
+            <li>
+<a href="nosotros/index.html">Kerania</a></li>
+            <li>
+<a href="contacto/index.html">Contacto</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__col">
+          <div class="footer__nav-title">Servicios</div>
+          <ul class="footer__nav-list">
+            <li>
+<a href="servicios/instalaciones-revestimientos/index.html">Revestimientos</a></li>
+            <li>
+<a href="servicios/reformas-construccion/index.html">Reformas</a></li>
+            <li>
+<a href="servicios/acabados-detalles-especiales/index.html">Acabados especiales</a></li>
+            <li>
+<a href="servicios/subcontratacion-mantenimiento/index.html">Subcontratación</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__col">
+          <div class="footer__nav-title">Contacto</div>
+          <ul class="footer__contact-list">
+            <li class="footer__contact-item">
+              <span class="footer__contact-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                  <circle cx="12" cy="10" r="3"/>
+                </svg>
+              </span>
+              <span class="footer__contact-text">C/ Major 67, 12590<br>Almenara - Comunidad Valenciana</span>
+            </li>
+            <li class="footer__contact-item">
+              <span class="footer__contact-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                  <polyline points="22,6 12,13 2,6"/>
+                </svg>
+              </span>
+              <a href="mailto:info@kerania.es" class="footer__contact-link">info@kerania.es</a>
+            </li>
+            <li class="footer__contact-item">
+              <span class="footer__contact-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                </svg>
+              </span>
+              <a href="tel:+34621160825" class="footer__contact-link">+34 621 160 825</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <div class="footer__legal" aria-label="Documentación legal pendiente">
+          <span>Aviso legal</span>
+          <span>Privacidad</span>
+          <span>Cookies</span>
+        </div>
+        <div class="footer__copy">© 2026 Kerania. Todos los derechos reservados.</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Project Lightbox Modal -->
+  <div class="project-modal" id="project-modal" aria-hidden="true">
+    <div class="project-modal__backdrop" id="modal-backdrop"></div>
+    <div class="project-modal__dialog" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <button class="project-modal__close" id="modal-close" aria-label="Cerrar modal">&times;</button>
+      <div class="project-modal__content">
+        <div class="project-modal__image-col">
+          <img src="" alt="" id="modal-img">
+        </div>
+        <div class="project-modal__info-col">
+          <div class="project-modal__category-tag" id="modal-category"></div>
+          <h3 class="project-modal__title" id="modal-title"></h3>
+          <div class="project-modal__location-badge" id="modal-location"></div>
+          <div class="project-modal__divider"></div>
+          <p class="project-modal__desc" id="modal-desc"></p>
+          <div class="project-modal__specs" id="modal-specs"></div>
+          <a href="contacto/index.html#solicitud" class="project-modal__cta" id="modal-cta" onclick="closeProjectModal()">Solicitar proyecto similar →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Floating Back to Top Button -->
+  <button class="back-to-top" id="back-to-top" aria-label="Volver arriba">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <line x1="12" y1="19" x2="12" y2="5"></line>
+      <polyline points="5 12 12 5 19 12"></polyline>
+    </svg>
+  </button>
+
+  <!-- Scripts -->
+  <script src="script.js?v=coverage-map-3"></script>
+  <script src="navigation.js"></script>
+</body>
+</html>

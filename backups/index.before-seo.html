@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Kerania — Instalación de revestimientos, reformas y acabados especializados para espacios que exigen precisión. Más de 20 años de experiencia.">
+  <title>KERANIA — La precisión que transforma espacios</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Scroll Progress Bar -->
+  <div class="scroll-progress-bar" id="scroll-progress"></div>
+
+  <!-- ============================================================
+       01 — HEADER
+       ============================================================ -->
+  <header class="header" id="header">
+    <div class="container">
+      <div class="header__inner">
+        <a href="#" class="header__logo">
+          <img src="Logos kerania nueva web/logo_kerania_spain.webp" alt="KERANIA" class="header__logo-img">
+        </a>
+
+        <nav class="header__nav" id="desktop-nav">
+          <a href="#" class="header__nav-link active">Inicio</a>
+          <a href="#servicios" class="header__nav-link">Servicios</a>
+          <a href="#proyectos" class="header__nav-link">Proyectos</a>
+          <a href="#intro" class="header__nav-link">Kerania</a>
+          <a href="#contacto" class="header__nav-link">Contacto</a>
+        </nav>
+
+        <a href="#contacto" class="header__cta">Solicitar presupuesto</a>
+
+        <button class="header__menu-toggle" id="menu-toggle" aria-label="Menú">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Nav -->
+  <nav class="mobile-nav" id="mobile-nav">
+    <a href="#" onclick="closeMobileNav()">Inicio</a>
+    <a href="#servicios" onclick="closeMobileNav()">Servicios</a>
+    <a href="#proyectos" onclick="closeMobileNav()">Proyectos</a>
+    <a href="#intro" onclick="closeMobileNav()">Kerania</a>
+    <a href="#contacto" onclick="closeMobileNav()">Contacto</a>
+    <a href="#contacto" onclick="closeMobileNav()" style="margin-top: 1rem; font-size: 0.85rem; letter-spacing: 0.1em; border-bottom: 1px solid #ADC75A; padding-bottom: 0.3rem;">Solicitar presupuesto</a>
+  </nav>
+
+
+  <!-- ============================================================
+       02 — HERO (Split Screen)
+       ============================================================ -->
+  <section class="hero" id="hero">
+    <!-- Left column — Content -->
+    <div class="hero__left">
+      <div class="hero__dot-grid" aria-hidden="true"></div>
+      <div class="hero__left-content">
+        <h1 class="hero__title">
+          <span>Dream it Today.</span>
+          <span class="hero__title-accent">Enjoy it tomorrow</span>
+        </h1>
+
+        <p class="hero__subtitle">Nuestra pasión es crear espacios estéticamente impecables y funcionales, asegurando siempre calidad y satisfacción para nuestros clientes.</p>
+
+        <div class="hero__actions">
+          <a href="#proyectos" class="hero__btn-outline">VER PROYECTOS</a>
+          <a href="#intro" class="hero__btn-link">CONOCE KERANIA</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Diagonal transition strip -->
+    <div class="hero__diagonal" aria-hidden="true"></div>
+
+    <!-- Right column — Overlapping Architectural Image Cards -->
+    <div class="hero__right">
+      <div class="hero__cards-wrapper">
+
+        <!-- Main Center Card -->
+        <div class="hero__card hero__card--main">
+          <img src="image_hero.jpg" alt="Pavimento de gran formato y acabados de lujo por Kerania">
+        </div>
+
+        <!-- Top Left Overlapping Card -->
+        <div class="hero__card hero__card--top-left">
+          <img src="banos_home.jpg" alt="Reformas y revestimientos de baños de alta gama">
+        </div>
+
+        <!-- Bottom Right Overlapping Card -->
+        <div class="hero__card hero__card--bottom-right">
+          <img src="imagen_equipo_especializado.jpg" alt="Equipo de precisión y colocación técnica">
+        </div>
+
+
+
+      </div>
+    </div>
+
+    <!-- Hero Bottom Bar: Logos Carousel + Scroll Indicator -->
+    <div class="hero__bottom-bar">
+      <div class="hero__logos-bar">
+        <div class="logos-carousel__wrapper">
+          <div class="logos-carousel__track">
+            <!-- Set 1 -->
+            <div class="logos-carousel__item"><img src="Imagenes/logos_clientes/agruna.png" alt="Agruna" loading="lazy"></div>
+            <div class="logos-carousel__item"><img src="Imagenes/logos_clientes/bentley.png" alt="Bentley" loading="lazy"></div>
+            <div class="logos-carousel__item"><img src="Imagenes/logos_clientes/bugatti.png" alt="Bugatti" loading="lazy"></div>
+            <div class="logos-carousel__item"><img src="Imagenes/logos_clientes/caretta.png" alt="Caretta" loading="lazy"></div>
+            <div class="logos-carousel__item"><img src="Imagenes/logos_clientes/edicover.png" alt="Edicover" loading="lazy"></div>
+            <div class="logos-carousel__item"><img src="Imagenes/logos_clientes/eltecna-ag.png" alt="Eltecna AG" loading="lazy"></div>
+            <div class="logos-carousel__item"><img src="Imagenes/logos_clientes/hrs.png" alt="HRS" loading="lazy"></div>
+            <div class="logos-carousel__item"><img src="Imagenes/logos_clientes/mclaren.png" alt="McLaren" loading="lazy"></div>
+            <div class="logos-carousel__item"><img src="Imagenes/logos_clientes/partner1.png" alt="Partner 1" loading="lazy"></div>
+            <div class="logos-carousel__item"><img src="Imagenes/logos_clientes/partner2.png" alt="Partner 2" loading="lazy"></div>
+            <div class="logos-carousel__item"><img src="Imagenes/logos_clientes/partner3.png" alt="Partner 3" loading="lazy"></div>
+            <div class="logos-carousel__item"><img src="Imagenes/logos_clientes/partner4.png" alt="Partner 4" loading="lazy"></div>
+            <div class="logos-carousel__item"><img src="Imagenes/logos_clientes/partner5.png" alt="Partner 5" loading="lazy"></div>
+            <div class="logos-carousel__item"><img src="Imagenes/logos_clientes/partner6.png" alt="Partner 6" loading="lazy"></div>
+            <div class="logos-carousel__item"><img src="Imagenes/logos_clientes/rolls.png" alt="Rolls-Royce" loading="lazy"></div>
+            <div class="logos-carousel__item"><img src="Imagenes/logos_clientes/ruedi.png" alt="Ruedi" loading="lazy"></div>
+            <div class="logos-carousel__item"><img src="Imagenes/logos_clientes/schmohl.png" alt="Schmohl" loading="lazy"></div>
+            <div class="logos-carousel__item"><img src="Imagenes/logos_clientes/steiner.png" alt="Steiner" loading="lazy"></div>
+            <div class="logos-carousel__item"><img src="Imagenes/logos_clientes/vito.png" alt="Vito" loading="lazy"></div>
+
+            <!-- Duplicated Set 2 for seamless loop -->
+            <div class="logos-carousel__item" aria-hidden="true"><img src="Imagenes/logos_clientes/agruna.png" alt="" loading="lazy"></div>
+            <div class="logos-carousel__item" aria-hidden="true"><img src="Imagenes/logos_clientes/bentley.png" alt="" loading="lazy"></div>
+            <div class="logos-carousel__item" aria-hidden="true"><img src="Imagenes/logos_clientes/bugatti.png" alt="" loading="lazy"></div>
+            <div class="logos-carousel__item" aria-hidden="true"><img src="Imagenes/logos_clientes/caretta.png" alt="" loading="lazy"></div>
+            <div class="logos-carousel__item" aria-hidden="true"><img src="Imagenes/logos_clientes/edicover.png" alt="" loading="lazy"></div>
+            <div class="logos-carousel__item" aria-hidden="true"><img src="Imagenes/logos_clientes/eltecna-ag.png" alt="" loading="lazy"></div>
+            <div class="logos-carousel__item" aria-hidden="true"><img src="Imagenes/logos_clientes/hrs.png" alt="" loading="lazy"></div>
+            <div class="logos-carousel__item" aria-hidden="true"><img src="Imagenes/logos_clientes/mclaren.png" alt="" loading="lazy"></div>
+            <div class="logos-carousel__item" aria-hidden="true"><img src="Imagenes/logos_clientes/partner1.png" alt="" loading="lazy"></div>
+            <div class="logos-carousel__item" aria-hidden="true"><img src="Imagenes/logos_clientes/partner2.png" alt="" loading="lazy"></div>
+            <div class="logos-carousel__item" aria-hidden="true"><img src="Imagenes/logos_clientes/partner3.png" alt="" loading="lazy"></div>
+            <div class="logos-carousel__item" aria-hidden="true"><img src="Imagenes/logos_clientes/partner4.png" alt="" loading="lazy"></div>
+            <div class="logos-carousel__item" aria-hidden="true"><img src="Imagenes/logos_clientes/partner5.png" alt="" loading="lazy"></div>
+            <div class="logos-carousel__item" aria-hidden="true"><img src="Imagenes/logos_clientes/partner6.png" alt="" loading="lazy"></div>
+            <div class="logos-carousel__item" aria-hidden="true"><img src="Imagenes/logos_clientes/rolls.png" alt="" loading="lazy"></div>
+            <div class="logos-carousel__item" aria-hidden="true"><img src="Imagenes/logos_clientes/ruedi.png" alt="" loading="lazy"></div>
+            <div class="logos-carousel__item" aria-hidden="true"><img src="Imagenes/logos_clientes/schmohl.png" alt="" loading="lazy"></div>
+            <div class="logos-carousel__item" aria-hidden="true"><img src="Imagenes/logos_clientes/steiner.png" alt="" loading="lazy"></div>
+            <div class="logos-carousel__item" aria-hidden="true"><img src="Imagenes/logos_clientes/vito.png" alt="" loading="lazy"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero__scroll">
+        <span class="hero__scroll-text">SCROLL</span>
+        <div class="hero__scroll-line"></div>
+      </div>
+    </div>
+  </section>
+  <section class="intro" id="intro">
+    <div class="container">
+      <div class="intro__inner">
+        <div class="intro__left reveal">
+          <div class="intro__image-wrapper">
+            <div class="intro__image">
+              <img src="imagen_kerania_1.png" alt="Kerania — Ejecución arquitectónica" loading="lazy">
+            </div>
+
+            <!-- Stats Overlay Card over Intro Image -->
+            <div class="intro__stats-card">
+              <div class="intro__stat">
+                <div class="intro__stat-line"></div>
+                <div class="intro__stat-content">
+                  <div class="intro__stat-number">20+</div>
+                  <div class="intro__stat-text">Años de experiencia</div>
+                </div>
+              </div>
+
+              <div class="intro__stat">
+                <div class="intro__stat-line"></div>
+                <div class="intro__stat-content">
+                  <div class="intro__stat-number">160+</div>
+                  <div class="intro__stat-text">Proyectos realizados</div>
+                </div>
+              </div>
+
+              <div class="intro__stat">
+                <div class="intro__stat-line"></div>
+                <div class="intro__stat-content">
+                  <div class="intro__stat-number">100%</div>
+                  <div class="intro__stat-text">Precisión en cada detalle</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="intro__right">
+          <p class="label intro__label reveal">01 / KERANIA</p>
+          <h2 class="intro__headline reveal reveal-delay-1">Más de 20 años convirtiendo materiales en espacios.</h2>
+          <p class="intro__text reveal reveal-delay-2">Kerania combina experiencia, precisión técnica y un profundo conocimiento de los materiales para ejecutar proyectos de alta exigencia. Cada instalación es el resultado de un oficio perfeccionado durante más de dos décadas.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       04 — SERVICIOS
+       ============================================================ -->
+  <section class="services" id="servicios">
+    <div class="container">
+      <div class="services__header reveal">
+        <h2 class="services__title">Qué hacemos</h2>
+        <p class="services__subtitle">Cuatro áreas de especialización</p>
+      </div>
+
+      <div class="services__grid">
+        <div class="service-block reveal">
+          <div class="service-block__iso" aria-hidden="true">
+            <img src="Logos kerania nueva web/iso_k_kerania_spain-02.webp" alt="">
+          </div>
+          <div class="service-block__number">01</div>
+          <h3 class="service-block__title">Instalaciones y revestimientos</h3>
+          <p class="service-block__desc">Instalación de suelos y pavimentos · Revestimientos para baños</p>
+          <span class="service-block__arrow">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </span>
+        </div>
+
+        <div class="service-block reveal reveal-delay-1">
+          <div class="service-block__iso" aria-hidden="true">
+            <img src="Logos kerania nueva web/iso_k_kerania_spain-02.webp" alt="">
+          </div>
+          <div class="service-block__number">02</div>
+          <h3 class="service-block__title">Reformas y construcción</h3>
+          <p class="service-block__desc">Reformas integrales · Construcción de fachadas y terrazas</p>
+          <span class="service-block__arrow">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </span>
+        </div>
+
+        <div class="service-block reveal reveal-delay-2">
+          <div class="service-block__iso" aria-hidden="true">
+            <img src="Logos kerania nueva web/iso_k_kerania_spain-02.webp" alt="">
+          </div>
+          <div class="service-block__number">03</div>
+          <h3 class="service-block__title">Acabados y detalles especiales</h3>
+          <p class="service-block__desc">Microcemento · Acabados especiales · Sellado de juntas</p>
+          <span class="service-block__arrow">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </span>
+        </div>
+
+        <div class="service-block reveal reveal-delay-3">
+          <div class="service-block__iso" aria-hidden="true">
+            <img src="Logos kerania nueva web/iso_k_kerania_spain-02.webp" alt="">
+          </div>
+          <div class="service-block__number">04</div>
+          <h3 class="service-block__title">Subcontratación y mantenimiento</h3>
+          <p class="service-block__desc">Reparaciones · Subcontratación especializada</p>
+          <span class="service-block__arrow">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       05 — PROYECTOS
+       ============================================================ -->
+  <section class="projects" id="proyectos">
+    <div class="container">
+      <div class="projects__header">
+        <div class="projects__header-top">
+          <div>
+            <p class="label projects__label reveal">02 / PROYECTOS</p>
+            <h2 class="projects__headline reveal reveal-delay-1">El resultado <span style="color: var(--accent);">habla</span> por nosotros.</h2>
+          </div>
+          <!-- Category Filter Bar -->
+          <div class="projects__filters reveal reveal-delay-2" id="project-filters">
+            <button class="projects__filter-btn active" data-filter="all">Todos</button>
+            <button class="projects__filter-btn" data-filter="suelos">Suelos</button>
+            <button class="projects__filter-btn" data-filter="banos">Baños</button>
+            <button class="projects__filter-btn" data-filter="fachadas">Fachadas</button>
+            <button class="projects__filter-btn" data-filter="terrazas">Terrazas</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Main Gallery Row -->
+      <div class="projects__gallery" id="projects-grid">
+        <div class="project-card reveal" 
+             data-category="suelos"
+             data-cursor="VER"
+             data-title="Pavimento porcelánico gran formato"
+             data-location="Barcelona"
+             data-desc="Instalación de piezas porcelánicas de gran formato (120x280 cm) con autonivelación láser y junta rectificada mínima de 1mm."
+             data-specs="Formatos 120x280cm · Nivelación Láser · Junta de 1mm"
+             data-image="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1200&q=85">
+          <div class="project-card__image">
+            <img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1200&q=85" 
+                 alt="Proyecto de suelos de gran formato" loading="lazy">
+          </div>
+          <div class="project-card__overlay">
+            <div class="project-card__category">Suelos</div>
+            <div class="project-card__title">Pavimento porcelánico gran formato</div>
+            <div class="project-card__location">Barcelona</div>
+          </div>
+        </div>
+
+        <div class="project-card reveal reveal-delay-1" 
+             data-category="banos"
+             data-cursor="VER"
+             data-title="Reforma integral baño principal"
+             data-location="Valencia"
+             data-desc="Revestimiento continuo con piezas cerámicas rectificadas, integración de hornacinas retroiluminadas y plato de ducha a cota cero."
+             data-specs="Ducha cota cero · Hornacinas de precisión · Impermeabilización técnica"
+             data-image="https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?auto=format&fit=crop&w=1000&q=85">
+          <div class="project-card__image">
+            <img src="https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?auto=format&fit=crop&w=1000&q=85" 
+                 alt="Proyecto de baño premium" loading="lazy">
+          </div>
+          <div class="project-card__overlay">
+            <div class="project-card__category">Baños</div>
+            <div class="project-card__title">Reforma integral baño principal</div>
+            <div class="project-card__location">Valencia</div>
+          </div>
+        </div>
+
+        <div class="project-card reveal reveal-delay-2" 
+             data-category="fachadas"
+             data-cursor="VER"
+             data-title="Revestimiento fachada exterior"
+             data-location="Castellón"
+             data-desc="Sistema de fijación técnica de gres porcelánico extrusionado para fachada ventilada, optimizando eficiencia térmica y acabado exterior."
+             data-specs="Fachada ventilada · Resistencia intemperie · Subestructura de aluminio"
+             data-image="https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1000&q=85">
+          <div class="project-card__image">
+            <img src="https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1000&q=85" 
+                 alt="Proyecto de fachada contemporánea" loading="lazy">
+          </div>
+          <div class="project-card__overlay">
+            <div class="project-card__category">Fachadas</div>
+            <div class="project-card__title">Revestimiento fachada exterior</div>
+            <div class="project-card__location">Castellón</div>
+          </div>
+        </div>
+
+        <div class="project-card reveal" 
+             data-category="terrazas"
+             data-cursor="VER"
+             data-title="Terraza porcelánica exterior"
+             data-location="Almenara"
+             data-desc="Pavimento antideslizante C3 de alto tránsito para piscina y solárium exterior con coronación a inglete ejecutada artesanalmente."
+             data-specs="Antideslizante C3 · Coronación a inglete · Resistencia a heladas"
+             data-image="https://images.unsplash.com/photo-1512915922686-57c11dde9b6b?auto=format&fit=crop&w=800&q=85">
+          <div class="project-card__image">
+            <img src="https://images.unsplash.com/photo-1512915922686-57c11dde9b6b?auto=format&fit=crop&w=800&q=85" 
+                 alt="Proyecto de terraza exterior" loading="lazy">
+          </div>
+          <div class="project-card__overlay">
+            <div class="project-card__category">Terrazas</div>
+            <div class="project-card__title">Terraza porcelánica exterior</div>
+            <div class="project-card__location">Almenara</div>
+          </div>
+        </div>
+
+        <div class="project-card reveal reveal-delay-1" 
+             data-category="fachadas"
+             data-cursor="VER"
+             data-title="Revestimiento en piedra natural"
+             data-location="Alicante"
+             data-desc="Colocación de aplacado de piedra caliza natural en paramentos verticales interiores con rejuntado calizo de tono continuo."
+             data-specs="Piedra caliza noble · Anclajes ocultos · Tratamiento hidrófugo"
+             data-image="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=800&q=85">
+          <div class="project-card__image">
+            <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=800&q=85" 
+                 alt="Proyecto de piedra natural" loading="lazy">
+          </div>
+          <div class="project-card__overlay">
+            <div class="project-card__category">Piedra natural</div>
+            <div class="project-card__title">Revestimiento en piedra natural</div>
+            <div class="project-card__location">Alicante</div>
+          </div>
+        </div>
+
+        <div class="project-card reveal reveal-delay-2" 
+             data-category="suelos"
+             data-cursor="VER"
+             data-title="Acabado microcemento residencial"
+             data-location="Madrid"
+             data-desc="Aplicación continua de microcemento de cuarzo en suelos y escaleras, sellado con barniz poliuretánico mate de alta dureza."
+             data-specs="Superficie sin juntas · Barniz poliuretano mate · Alta resistencia"
+             data-image="https://images.unsplash.com/photo-1600585152220-90363fe7e115?auto=format&fit=crop&w=800&q=85">
+          <div class="project-card__image">
+            <img src="https://images.unsplash.com/photo-1600585152220-90363fe7e115?auto=format&fit=crop&w=800&q=85" 
+                 alt="Detalle de acabados especiales" loading="lazy">
+          </div>
+          <div class="project-card__overlay">
+            <div class="project-card__category">Suelos</div>
+            <div class="project-card__title">Acabado microcemento residencial</div>
+            <div class="project-card__location">Madrid</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="projects__cta reveal">
+        <a href="#contacto" data-cursor="CONTACTAR">Solicitar información de proyectos →</a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       06 — DIFERENCIAL / FILOSOFÍA
+       ============================================================ -->
+  <section class="philosophy">
+    <div class="container">
+      <div class="philosophy__inner">
+        <div class="philosophy__image reveal">
+          <img src="banos_home.jpg" alt="Acabados en baño de alta gama Kerania" loading="lazy">
+        </div>
+        <div class="philosophy__content">
+          <h2 class="philosophy__headline reveal">
+            <span>No se trata solo</span>
+            <span>de instalar.</span>
+          </h2>
+          <p class="philosophy__headline reveal reveal-delay-1" style="color: var(--accent); margin-bottom: var(--spacing-lg);">
+            <span>Se trata de</span>
+            <span>hacerlo perfecto.</span>
+          </p>
+          <div class="philosophy__line reveal reveal-delay-2"></div>
+          <p class="philosophy__text reveal reveal-delay-3">Cada encuentro de materiales, cada junta, cada esquina cuenta una historia de precisión. Es la obsesión por el detalle lo que distingue una instalación correcta de una ejecución impecable.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       07 — PARA EMPRESAS
+       ============================================================ -->
+  <section class="companies">
+    <div class="container">
+      <div class="companies__inner">
+        <div class="companies__left">
+          <h2 class="companies__headline reveal">Un equipo especializado para proyectos exigentes.</h2>
+          <p class="companies__text reveal reveal-delay-1">Kerania colabora con empresas y profesionales que necesitan un equipo de ejecución fiable, técnicamente preparado y comprometido con los plazos y la calidad.</p>
+          <div class="companies__sectors reveal reveal-delay-2">
+            <span class="companies__sector">Constructoras</span>
+            <span class="companies__sector">Arquitectura</span>
+            <span class="companies__sector">Interiorismo</span>
+            <span class="companies__sector">Hospitality</span>
+          </div>
+          <a href="#contacto" class="companies__cta reveal reveal-delay-3">Trabaja con Kerania →</a>
+        </div>
+        <div class="companies__right">
+          <div class="companies__image reveal">
+            <img src="imagen_equipo_especializado.jpg" alt="Equipo especializado Kerania" loading="lazy">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       08 — PROCESO
+       ============================================================ -->
+  <section class="process" id="proceso">
+    <div class="container">
+      <div class="process__header">
+        <p class="label reveal">03 / PROCESO</p>
+        <h2 class="process__title reveal reveal-delay-1">Cómo trabajamos</h2>
+      </div>
+
+      <div class="process__timeline" id="process-timeline">
+        <!-- Connecting line -->
+        <div class="process__line">
+          <div class="process__line-fill" id="process-line-fill"></div>
+        </div>
+
+        <div class="process__steps">
+          <div class="process__step" data-step="1">
+            <div class="process__step-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3z"/>
+                <path d="M19 10v2a7 7 0 0 1-14 0v-2"/>
+                <line x1="12" y1="19" x2="12" y2="22"/>
+              </svg>
+            </div>
+            <div class="process__step-content">
+              <div class="process__step-number">01</div>
+              <h3 class="process__step-title">Escuchamos</h3>
+              <p class="process__step-desc">Entendemos el proyecto, el espacio y las necesidades técnicas antes de proponer nada.</p>
+            </div>
+          </div>
+
+          <div class="process__step" data-step="2">
+            <div class="process__step-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="3" width="18" height="18" rx="2"/>
+                <path d="M3 9h18"/>
+                <path d="M9 21V9"/>
+                <path d="M14 9l4 4"/>
+              </svg>
+            </div>
+            <div class="process__step-content">
+              <div class="process__step-number">02</div>
+              <h3 class="process__step-title">Planificamos</h3>
+              <p class="process__step-desc">Definimos materiales, tiempos y método de ejecución con precisión milimétrica.</p>
+            </div>
+          </div>
+
+          <div class="process__step" data-step="3">
+            <div class="process__step-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
+              </svg>
+            </div>
+            <div class="process__step-content">
+              <div class="process__step-number">03</div>
+              <h3 class="process__step-title">Ejecutamos</h3>
+              <p class="process__step-desc">Nuestro equipo especializado transforma el plan en realidad, cuidando cada junta y cada detalle.</p>
+            </div>
+          </div>
+
+          <div class="process__step" data-step="4">
+            <div class="process__step-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                <polyline points="22 4 12 14.01 9 11.01"/>
+              </svg>
+            </div>
+            <div class="process__step-content">
+              <div class="process__step-number">04</div>
+              <h3 class="process__step-title">Entregamos</h3>
+              <p class="process__step-desc">Revisamos cada superficie y entregamos un espacio que habla por sí mismo.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       09 — CTA FINAL
+       ============================================================ -->
+  <section class="final-cta" id="contacto">
+    <div class="container">
+      <p class="label final-cta__label reveal">¿HABLAMOS?</p>
+      <h2 class="final-cta__headline reveal reveal-delay-1">Tu próximo espacio empieza con una buena ejecución.</h2>
+      <a href="#" class="final-cta__button reveal reveal-delay-2">Solicitar presupuesto →</a>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       10 — FOOTER
+       ============================================================ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__brand">
+          <div class="footer__logo">
+            <img src="Logos kerania nueva web/logo_kerania_spain_blanco.webp" alt="KERANIA" class="footer__logo-img">
+          </div>
+          <p class="footer__tagline">Instalación, reformas y acabados especializados. La precisión que transforma espacios.</p>
+          <div class="footer__accent-line"></div>
+        </div>
+
+        <div class="footer__col">
+          <div class="footer__nav-title">Navegación</div>
+          <ul class="footer__nav-list">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#intro">Kerania</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__col">
+          <div class="footer__nav-title">Servicios</div>
+          <ul class="footer__nav-list">
+            <li><a href="#servicios">Revestimientos</a></li>
+            <li><a href="#servicios">Reformas</a></li>
+            <li><a href="#servicios">Acabados especiales</a></li>
+            <li><a href="#servicios">Subcontratación</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__col">
+          <div class="footer__nav-title">Contacto</div>
+          <ul class="footer__contact-list">
+            <li class="footer__contact-item">
+              <span class="footer__contact-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                  <circle cx="12" cy="10" r="3"/>
+                </svg>
+              </span>
+              <span class="footer__contact-text">C/ Major 67, 12590<br>Almenara - Comunidad Valenciana</span>
+            </li>
+            <li class="footer__contact-item">
+              <span class="footer__contact-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                  <polyline points="22,6 12,13 2,6"/>
+                </svg>
+              </span>
+              <a href="mailto:info@kerania.es" class="footer__contact-link">info@kerania.es</a>
+            </li>
+            <li class="footer__contact-item">
+              <span class="footer__contact-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                </svg>
+              </span>
+              <a href="tel:+34621160825" class="footer__contact-link">+34 621 160 825</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <div class="footer__legal">
+          <a href="#">Aviso legal</a>
+          <a href="#">Privacidad</a>
+          <a href="#">Cookies</a>
+        </div>
+        <div class="footer__copy">© 2026 Kerania. Todos los derechos reservados.</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Project Lightbox Modal -->
+  <div class="project-modal" id="project-modal" aria-hidden="true">
+    <div class="project-modal__backdrop" id="modal-backdrop"></div>
+    <div class="project-modal__dialog">
+      <button class="project-modal__close" id="modal-close" aria-label="Cerrar modal">&times;</button>
+      <div class="project-modal__content">
+        <div class="project-modal__image-col">
+          <img src="" alt="" id="modal-img">
+        </div>
+        <div class="project-modal__info-col">
+          <div class="project-modal__category-tag" id="modal-category"></div>
+          <h3 class="project-modal__title" id="modal-title"></h3>
+          <div class="project-modal__location-badge" id="modal-location"></div>
+          <div class="project-modal__divider"></div>
+          <p class="project-modal__desc" id="modal-desc"></p>
+          <div class="project-modal__specs" id="modal-specs"></div>
+          <a href="#contacto" class="project-modal__cta" id="modal-cta" onclick="closeProjectModal()">Solicitar proyecto similar →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Floating Back to Top Button -->
+  <button class="back-to-top" id="back-to-top" aria-label="Volver arriba">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <line x1="12" y1="19" x2="12" y2="5"></line>
+      <polyline points="5 12 12 5 19 12"></polyline>
+    </svg>
+  </button>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>

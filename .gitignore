@@ -1,0 +1,37 @@
+# Dependencias
+node_modules/
+
+# Variables de entorno y credenciales
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+service-account*.json
+secrets.*
+*.secret
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Registros, cachés y archivos temporales
+*.log
+logs/
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+tmp/
+temp/
+.cache/
+.parcel-cache/
+.npm/
+.yarn/cache/
+
+# Configuración local de editores
+.idea/
+.vscode/
