@@ -208,27 +208,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
   // ---------------------------------------------------------------
-  // Parallax-like effect on hero image (subtle)
-  // ---------------------------------------------------------------
-  const heroImage = document.querySelector('.hero__right img');
-
-  if (heroImage && window.innerWidth > 768) {
-    window.addEventListener('scroll', () => {
-      const scrolled = window.pageYOffset;
-      const heroHeight = document.querySelector('.hero').offsetHeight;
-
-      if (scrolled <= heroHeight) {
-        heroImage.style.transform = `translateY(${scrolled * 0.1}px) scale(1.05)`;
-      }
-    }, { passive: true });
-
-    // Initial scale
-    heroImage.style.transform = 'scale(1.05)';
-    heroImage.style.transition = 'transform 0.1s linear';
-  }
-
-
-  // ---------------------------------------------------------------
   // Counter Animation for Stats
   // ---------------------------------------------------------------
   const statNumbers = document.querySelectorAll('.intro__stat-number, .hero__stat-number');

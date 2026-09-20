@@ -291,8 +291,6 @@ body.service-page { background: var(--service-paper); color: var(--service-ink);
 .experience-clients .logos-carousel__item img:is(
   [src*="bugatti.png"],
   [src*="partner2.png"],
-  [src*="partner3.png"],
-  [src*="partner4.png"],
   [src*="rolls.png"]
 ) { scale: .85; }
 .experience-clients .logos-carousel__item:hover img {
