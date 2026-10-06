@@ -330,6 +330,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // ---------------------------------------------------------------
   const filterBtns = document.querySelectorAll('.projects__filter-btn');
   const projectCards = document.querySelectorAll('.project-card');
+  const filterCards = document.querySelectorAll('#projects-grid .portfolio-card, #projects-grid .project-card');
 
   filterBtns.forEach(btn => {
     btn.addEventListener('click', () => {
@@ -339,8 +340,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
       const filter = btn.getAttribute('data-filter');
 
-      projectCards.forEach(card => {
+      filterCards.forEach(card => {
         const category = card.getAttribute('data-category');
+        card.hidden = filter !== 'all' && category !== filter;
         if (filter === 'all' || category === filter) {
           card.classList.remove('filtered-out');
         } else {

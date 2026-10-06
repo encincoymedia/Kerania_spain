@@ -1199,13 +1199,14 @@ button {
 
 .philosophy__inner {
   display: grid;
-  grid-template-columns: 0.95fr 1.05fr;
-  gap: var(--spacing-xl);
-  align-items: center;
+  grid-template-columns: minmax(0, .8fr) minmax(0, 1.2fr);
+  gap: clamp(40px, 4vw, 64px);
+  align-items: start;
 }
 
 .philosophy__content {
-  padding-left: var(--spacing-md);
+  min-width: 0;
+  padding-left: 0;
 }
 
 .philosophy__headline {
@@ -1240,7 +1241,7 @@ p.philosophy__headline {
   font-weight: 300;
   line-height: 1.65;
   color: var(--gray-700);
-  max-width: 440px;
+  max-width: 680px;
 }
 
 .philosophy__image {
@@ -3106,7 +3107,7 @@ a:focus-visible, button:focus-visible { outline: 3px solid #647d23; outline-offs
 }
 
 .home-page .header.scrolled .header__logo-img {
-  filter: brightness(0.17);
+  filter: none;
 }
 
 .home-page .header:not(.scrolled) .header__menu-toggle span {
@@ -3594,7 +3595,7 @@ a:focus-visible, button:focus-visible { outline: 3px solid #647d23; outline-offs
 }
 
 .home-page .header.scrolled .header__logo-img {
-  filter: brightness(0.17);
+  filter: none;
 }
 
 /* Service-page image rules must not resize the shared header logo. */
