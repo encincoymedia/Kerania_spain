@@ -53,115 +53,115 @@
       "serviceHref": "../servicios/reformas-construccion/",
       "gallery": [
         {
-          "src": "banos/Banos-9.jpg",
+          "src": "Ban%CC%83os/Banos-9.jpg",
           "alt": "Baño con bañera exenta, lavabo doble y revestimientos de acabado madera",
           "width": 1200,
           "height": 801
         },
         {
-          "src": "banos/Banos-16.jpg",
+          "src": "Ban%CC%83os/Banos-16.jpg",
           "alt": "Baño de tonos claros con lavabo suspendido y ducha con mampara de cristal",
           "width": 1200,
           "height": 801
         },
         {
-          "src": "banos/Banos-15.jpg",
+          "src": "Ban%CC%83os/Banos-15.jpg",
           "alt": "Lavabo doble con espejos e iluminación sobre revestimientos grises",
           "width": 1200,
           "height": 801
         },
         {
-          "src": "banos/Banos-12.jpg",
+          "src": "Ban%CC%83os/Banos-12.jpg",
           "alt": "Baño con bañera y revestimientos de acabado madera combinados con negro",
           "width": 1200,
           "height": 801
         },
         {
-          "src": "banos/Banos-11.jpg",
+          "src": "Ban%CC%83os/Banos-11.jpg",
           "alt": "Detalle de un lavabo y una bañera junto a revestimientos de acabado madera",
           "width": 1200,
           "height": 787
         },
         {
-          "src": "banos/kerania_bad_2.jpg",
+          "src": "Ban%CC%83os/kerania_bad_2.jpg",
           "alt": "Baño con bañera exenta blanca, lavabos negros y revestimientos grises",
           "width": 1920,
           "height": 800
         },
         {
-          "src": "banos/hg_badezimmer1-scaled.jpg",
+          "src": "Ban%CC%83os/hg_badezimmer1-scaled.jpg",
           "alt": "Baño con azulejos blancos y pavimento de cuadros en blanco y negro",
           "width": 2560,
           "height": 2560
         },
         {
-          "src": "banos/hg_badezimmer2-1024x1024.jpg",
+          "src": "Ban%CC%83os/hg_badezimmer2-1024x1024.jpg",
           "alt": "Ducha con mampara negra en un baño con pavimento de cuadros",
           "width": 1024,
           "height": 1024
         },
         {
-          "src": "banos/DIENSTLEISTUNGEN_NEW2_KERAMIK-8.jpg",
+          "src": "Ban%CC%83os/DIENSTLEISTUNGEN_NEW2_KERAMIK-8.jpg",
           "alt": "Baño con baldosas grises de gran formato y lavabo suspendido",
           "width": 500,
           "height": 500
         },
         {
-          "src": "banos/DIENSTLEISTUNGEN_NEW_KERAMIK-3.jpg",
+          "src": "Ban%CC%83os/DIENSTLEISTUNGEN_NEW_KERAMIK-3.jpg",
           "alt": "Ducha revestida con azulejos grises junto a un lavabo sobre madera",
           "width": 500,
           "height": 500
         },
         {
-          "src": "banos/DIENSTLEISTUNGEN_NEW_KERAMIK-1.jpg",
+          "src": "Ban%CC%83os/DIENSTLEISTUNGEN_NEW_KERAMIK-1.jpg",
           "alt": "Ducha con revestimiento cerámico gris y una franja de mosaico",
           "width": 500,
           "height": 500
         },
         {
-          "src": "banos/IMG_8898.jpg",
+          "src": "Ban%CC%83os/IMG_8898.jpg",
           "alt": "Lavabo de piedra sobre una encimera veteada junto a una pared de mosaico",
           "width": 640,
           "height": 480
         },
         {
-          "src": "banos/kerania_langfurren1.jpg",
+          "src": "Ban%CC%83os/kerania_langfurren1.jpg",
           "alt": "Baño con bañera, mampara y revestimientos grises",
           "width": 1000,
           "height": 666
         },
         {
-          "src": "banos/kerania_langfurren2.jpg",
+          "src": "Ban%CC%83os/kerania_langfurren2.jpg",
           "alt": "Lavabo blanco y espejo iluminado en un baño de tonos cálidos",
           "width": 1000,
           "height": 666
         },
         {
-          "src": "banos/kerania_langfurren5.jpg",
+          "src": "Ban%CC%83os/kerania_langfurren5.jpg",
           "alt": "Detalle del lavabo y el inodoro junto a un revestimiento de tonos cálidos",
           "width": 1000,
           "height": 666
         },
         {
-          "src": "banos/kerania_st_1.png",
+          "src": "Ban%CC%83os/kerania_st_1.png",
           "alt": "Baño alargado con lavabo doble y ducha al fondo",
           "width": 1000,
           "height": 1274
         },
         {
-          "src": "banos/kerania_st_2.png",
+          "src": "Ban%CC%83os/kerania_st_2.png",
           "alt": "Vista de un baño estrecho con lavabo y espejo sobre una pared revestida",
           "width": 1000,
           "height": 1277
         },
         {
-          "src": "banos/kerania_strang.jpg",
+          "src": "Ban%CC%83os/kerania_strang.jpg",
           "alt": "Baño con bañera, revestimientos claros y techo de madera",
           "width": 960,
           "height": 960
         },
         {
-          "src": "banos/zu_foto11.jpg",
+          "src": "Ban%CC%83os/zu_foto11.jpg",
           "alt": "Baño con ducha, lavabo e instalación de lavadora bajo un techo de madera",
           "width": 1600,
           "height": 1600
