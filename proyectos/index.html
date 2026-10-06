@@ -10,7 +10,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../styles.css">
-  <link rel="stylesheet" href="proyectos.css">
+  <link rel="stylesheet" href="proyectos.css?v=20261006-15">
   <script>document.documentElement.className = 'js';</script>
   <script type="application/ld+json">
   {
@@ -24,6 +24,7 @@
   </script>
 </head>
 <body class="portfolio-page">
+  <a class="portfolio-skip-link" href="#contenido">Saltar al contenido</a>
   <div class="scroll-progress-bar" id="scroll-progress" aria-hidden="true"></div>
 
   <header class="header" id="header">
@@ -75,7 +76,7 @@
     <section class="portfolio-hero" aria-labelledby="portfolio-title">
       <div class="container portfolio-hero__inner">
         <p class="portfolio-eyebrow portfolio-reveal">03 / PROYECTOS</p>
-        <h1 id="portfolio-title" class="portfolio-reveal portfolio-delay-1">Proyectos de reformas,<br> <span>revestimientos y acabados</span><br> en Valencia.</h1>
+        <h1 id="portfolio-title" class="portfolio-reveal portfolio-delay-1">Proyectos de <span>reformas</span>,<br> <span>revestimientos y acabados</span><br> en Valencia.</h1>
         <div class="portfolio-hero__bottom portfolio-reveal portfolio-delay-2">
           <p class="portfolio-hero__statement">Proyectos que transforman espacios.<br><span>Precisión en cada detalle.</span></p>
           <p class="portfolio-hero__copy">Cada proyecto combina planificación, conocimiento de los materiales y una ejecución cuidada. Descubre una selección de trabajos de revestimiento, reformas y acabados realizados para viviendas, exteriores y espacios profesionales.</p>
@@ -83,58 +84,60 @@
       </div>
     </section>
 
-    <section class="portfolio-work" aria-labelledby="portfolio-grid-title">
+    <section class="portfolio-work" id="seleccion-proyectos" aria-labelledby="portfolio-grid-title">
       <div class="container">
         <h2 id="portfolio-grid-title" class="visually-hidden">Selección de proyectos</h2>
-        <div class="portfolio-filters portfolio-reveal" id="project-filters" role="group" aria-label="Filtrar proyectos por categoría">
-          <button class="portfolio-filter is-active" type="button" data-filter="all" aria-pressed="true">Todos</button>
-          <button class="portfolio-filter" type="button" data-filter="revestimientos" aria-pressed="false">Revestimientos</button>
-          <button class="portfolio-filter" type="button" data-filter="banos" aria-pressed="false">Baños</button>
-          <button class="portfolio-filter" type="button" data-filter="fachadas" aria-pressed="false">Fachadas</button>
-          <button class="portfolio-filter" type="button" data-filter="exteriores" aria-pressed="false">Exteriores</button>
-          <button class="portfolio-filter" type="button" data-filter="acabados" aria-pressed="false">Acabados</button>
+        <div class="portfolio-toolbar portfolio-reveal">
+          <div class="portfolio-filters" id="project-filters" role="group" aria-label="Filtrar proyectos por categoría">
+            <button class="portfolio-filter is-active" type="button" data-filter="all" aria-pressed="true" aria-controls="projects-grid">Todos</button>
+            <button class="portfolio-filter" type="button" data-filter="revestimientos" aria-pressed="false" aria-controls="projects-grid">Revestimientos</button>
+            <button class="portfolio-filter" type="button" data-filter="banos" aria-pressed="false" aria-controls="projects-grid">Baños</button>
+            <button class="portfolio-filter" type="button" data-filter="fachadas" aria-pressed="false" aria-controls="projects-grid">Fachadas</button>
+            <button class="portfolio-filter" type="button" data-filter="exteriores" aria-pressed="false" aria-controls="projects-grid">Exteriores</button>
+            <button class="portfolio-filter" type="button" data-filter="acabados" aria-pressed="false" aria-controls="projects-grid">Acabados</button>
+          </div>
         </div>
 
         <div class="portfolio-grid" id="projects-grid">
           <article class="portfolio-card portfolio-reveal" data-category="revestimientos">
-            <a class="portfolio-card__trigger" href="pavimento-porcelanico-gran-formato/index.html" data-project="pavimento-porcelanico-gran-formato" aria-label="Abrir proyecto Pavimento porcelánico gran formato">
-              <span class="portfolio-card__media"><img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&amp;fit=crop&amp;w=1200&amp;q=85" alt="Proyecto de suelos de gran formato" width="1200" height="900" fetchpriority="high"></span>
-              <span class="portfolio-card__overlay"><span class="portfolio-card__category">Suelos</span><strong>Pavimento porcelánico gran formato</strong><span class="portfolio-card__location">Comunidad Valenciana</span><span class="portfolio-card__arrow" aria-hidden="true">→</span></span>
+            <a class="portfolio-card__trigger" href="galeria-revestimientos/index.html" data-project="galeria-revestimientos" aria-label="Abrir galería de Revestimientos">
+              <span class="portfolio-card__media"><img src="Revestimientos/DIENSTLEISTUNGEN_NEW2_KERAMIK-4.jpg" alt="Pavimento cerámico de acabado madera en un salón abierto a la cocina" width="500" height="500" fetchpriority="high"></span>
+              <span class="portfolio-card__overlay"><span class="portfolio-card__category">Galería de materiales</span><strong>Revestimientos</strong><span class="portfolio-card__location">Cerámica, gran formato y otros acabados</span><span class="portfolio-card__arrow" aria-hidden="true">→</span></span>
             </a>
           </article>
 
           <article class="portfolio-card portfolio-reveal portfolio-delay-1" data-category="banos">
-            <a class="portfolio-card__trigger" href="reforma-integral-bano-principal/index.html" data-project="reforma-integral-bano-principal" aria-label="Abrir proyecto Reforma integral baño principal">
-              <span class="portfolio-card__media"><img src="https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?auto=format&amp;fit=crop&amp;w=1000&amp;q=85" alt="Proyecto de baño" width="1000" height="900" loading="lazy"></span>
-              <span class="portfolio-card__overlay"><span class="portfolio-card__category">Baños</span><strong>Reforma integral baño principal</strong><span class="portfolio-card__location">Comunidad Valenciana</span><span class="portfolio-card__arrow" aria-hidden="true">→</span></span>
+            <a class="portfolio-card__trigger" href="galeria-banos/index.html" data-project="galeria-banos" aria-label="Abrir galería de Baños">
+              <span class="portfolio-card__media"><img src="Ban%CC%83os/Banos-9.jpg" alt="Baño con bañera exenta, lavabo doble y revestimientos de acabado madera" width="1200" height="801" loading="lazy"></span>
+              <span class="portfolio-card__overlay"><span class="portfolio-card__category">Reformas y revestimientos</span><strong>Baños</strong><span class="portfolio-card__location">Suelos, paredes y zonas húmedas</span><span class="portfolio-card__arrow" aria-hidden="true">→</span></span>
             </a>
           </article>
 
           <article class="portfolio-card portfolio-reveal portfolio-delay-2" data-category="fachadas">
-            <a class="portfolio-card__trigger" href="revestimiento-fachada-exterior/index.html" data-project="revestimiento-fachada-exterior" aria-label="Abrir proyecto Revestimiento fachada exterior">
-              <span class="portfolio-card__media"><img src="https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&amp;fit=crop&amp;w=1000&amp;q=85" alt="Proyecto de fachada contemporánea" width="1000" height="900" loading="lazy"></span>
-              <span class="portfolio-card__overlay"><span class="portfolio-card__category">Fachadas</span><strong>Revestimiento fachada exterior</strong><span class="portfolio-card__location">Comunidad Valenciana</span><span class="portfolio-card__arrow" aria-hidden="true">→</span></span>
+            <a class="portfolio-card__trigger" href="galeria-fachadas/index.html" data-project="galeria-fachadas" aria-label="Abrir galería de Fachadas">
+              <span class="portfolio-card__media"><img src="Fachadas/02_ueberbauung_huerstwald-1024x768.jpg" alt="Conjunto de edificios residenciales con fachadas claras y zonas comunes ajardinadas" width="1024" height="768" loading="lazy"></span>
+              <span class="portfolio-card__overlay"><span class="portfolio-card__category">Obras de gran envergadura</span><strong>Fachadas</strong><span class="portfolio-card__location">Solidez técnica y ejecución precisa</span><span class="portfolio-card__arrow" aria-hidden="true">→</span></span>
             </a>
           </article>
 
           <article class="portfolio-card portfolio-reveal" data-category="exteriores">
-            <a class="portfolio-card__trigger" href="terraza-porcelanica-exterior/index.html" data-project="terraza-porcelanica-exterior" aria-label="Abrir proyecto Terraza porcelánica exterior">
-              <span class="portfolio-card__media"><img src="https://images.unsplash.com/photo-1512915922686-57c11dde9b6b?auto=format&amp;fit=crop&amp;w=1000&amp;q=85" alt="Proyecto de terraza exterior" width="1000" height="900" loading="lazy"></span>
-              <span class="portfolio-card__overlay"><span class="portfolio-card__category">Terrazas</span><strong>Terraza porcelánica exterior</strong><span class="portfolio-card__location">Comunidad Valenciana</span><span class="portfolio-card__arrow" aria-hidden="true">→</span></span>
+            <a class="portfolio-card__trigger" href="galeria-terrazas/index.html" data-project="galeria-terrazas" aria-label="Abrir galería de Exteriores">
+              <span class="portfolio-card__media"><img src="Exteriores/terrazas4.jpg" alt="Terraza con pavimento claro, tumbonas y zonas ajardinadas" width="1440" height="830" loading="lazy"></span>
+              <span class="portfolio-card__overlay"><span class="portfolio-card__category">Pavimentos y acabados exteriores</span><strong>Exteriores</strong><span class="portfolio-card__location">Terrazas, piscinas y zonas de descanso</span><span class="portfolio-card__arrow" aria-hidden="true">→</span></span>
             </a>
           </article>
 
           <article class="portfolio-card portfolio-reveal portfolio-delay-1" data-category="acabados">
-            <a class="portfolio-card__trigger" href="revestimiento-piedra-natural/index.html" data-project="revestimiento-piedra-natural" aria-label="Abrir proyecto Revestimiento en piedra natural">
-              <span class="portfolio-card__media"><img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&amp;fit=crop&amp;w=1000&amp;q=85" alt="Proyecto de piedra natural" width="1000" height="900" loading="lazy"></span>
-              <span class="portfolio-card__overlay"><span class="portfolio-card__category">Piedra natural</span><strong>Revestimiento en piedra natural</strong><span class="portfolio-card__location">Comunidad Valenciana</span><span class="portfolio-card__arrow" aria-hidden="true">→</span></span>
+            <a class="portfolio-card__trigger" href="galeria-suelos/index.html" data-project="galeria-suelos" aria-label="Abrir galería de Suelos">
+              <span class="portfolio-card__media"><img src="Suelos/Suelos-10.jpg" alt="Suelo en tonos claros en un salón con iluminación perimetral" width="1200" height="804" loading="lazy"></span>
+              <span class="portfolio-card__overlay"><span class="portfolio-card__category">Instalación y acabados</span><strong>Suelos</strong><span class="portfolio-card__location">Cerámica, porcelánico y gran formato</span><span class="portfolio-card__arrow" aria-hidden="true">→</span></span>
             </a>
           </article>
 
           <article class="portfolio-card portfolio-reveal portfolio-delay-2" data-category="acabados">
-            <a class="portfolio-card__trigger" href="acabado-microcemento-residencial/index.html" data-project="acabado-microcemento-residencial" aria-label="Abrir proyecto Acabado microcemento residencial">
-              <span class="portfolio-card__media"><img src="https://images.unsplash.com/photo-1600585152220-90363fe7e115?auto=format&amp;fit=crop&amp;w=1000&amp;q=85" alt="Detalle de acabados especiales" width="1000" height="900" loading="lazy"></span>
-              <span class="portfolio-card__overlay"><span class="portfolio-card__category">Suelos</span><strong>Acabado microcemento residencial</strong><span class="portfolio-card__location">Comunidad Valenciana</span><span class="portfolio-card__arrow" aria-hidden="true">→</span></span>
+            <a class="portfolio-card__trigger" href="galeria-detalles-especiales/index.html" data-project="galeria-detalles-especiales" aria-label="Abrir galería de Reparaciones y acabados especiales">
+              <span class="portfolio-card__media"><img src="Reparaciones%20y%20acabados%20especiales/clear-water-swimming-pool-daytime.jpg" alt="Encuentro del revestimiento con el borde de una piscina" width="3000" height="2000" loading="lazy"></span>
+              <span class="portfolio-card__overlay"><span class="portfolio-card__category">Precisión y sellado de juntas</span><strong>Reparaciones y acabados especiales</strong><span class="portfolio-card__location">Juntas, encuentros y remates</span><span class="portfolio-card__arrow" aria-hidden="true">→</span></span>
             </a>
           </article>
         </div>
@@ -169,7 +172,7 @@
     </section>
   </main>
 
-  <div class="project-viewer" id="project-viewer" role="dialog" aria-modal="true" aria-labelledby="viewer-title" aria-hidden="true">
+  <div class="project-viewer" id="project-viewer" role="dialog" tabindex="-1" aria-modal="true" aria-labelledby="viewer-title" aria-hidden="true">
     <div class="project-viewer__shell" role="document">
       <button class="project-viewer__close" id="viewer-close" type="button" aria-label="Cerrar proyecto"><span aria-hidden="true"></span></button>
       <div class="project-viewer__gallery" id="viewer-gallery">
@@ -182,13 +185,13 @@
         <p class="project-viewer__category" id="viewer-category"></p>
         <h2 id="viewer-title"></h2>
         <p class="project-viewer__location" id="viewer-location"></p>
-        <p class="project-viewer__description" id="viewer-description"></p>
+        <div class="project-viewer__description" id="viewer-description"></div>
         <dl>
           <div><dt>Trabajo realizado</dt><dd id="viewer-work"></dd></div>
           <div><dt>Materiales / técnica</dt><dd id="viewer-materials"></dd></div>
         </dl>
+        <div class="project-gallery-thumbnails" id="viewer-thumbnails" role="group" aria-label="Imágenes de la galería" hidden></div>
         <a class="project-viewer__service" id="viewer-service" href="../servicios/instalaciones-revestimientos/index.html">Servicio relacionado <span aria-hidden="true">→</span></a>
-        <a class="project-viewer__permalink" id="viewer-permalink" href="pavimento-porcelanico-gran-formato/index.html">Abrir ficha del proyecto</a>
       </aside>
     </div>
   </div>
@@ -206,7 +209,7 @@
   </footer>
 
   <button class="portfolio-back-top" id="back-to-top" type="button" aria-label="Volver arriba"><span aria-hidden="true">↑</span></button>
-  <script src="proyectos.js?v=2" defer></script>
+  <script src="proyectos.js?v=20261006-23" defer></script>
   <script src="../navigation.js" defer></script>
 </body>
 </html>

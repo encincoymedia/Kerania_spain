@@ -10,7 +10,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../styles.css">
-  <link rel="stylesheet" href="nosotros.css">
+  <link rel="stylesheet" href="nosotros.css?v=20261006-3">
+  <link rel="stylesheet" href="../proyectos/proyectos-servicios.css?v=20261006-2">
   <script>document.documentElement.className = 'js';</script>
   <script type="application/ld+json">
   {
@@ -112,7 +113,7 @@
           </div>
         </div>
         <figure class="about-hero__media about-reveal about-delay-1">
-          <img src="../servicios/subcontratacion-mantenimiento/hero_subcontratacion.webp" alt="Profesionales trabajando con precisión durante la instalación de un pavimento" width="800" height="1280" fetchpriority="high">
+          <img src="../Imagenes/image_hero_reformas_fachadas.webp" alt="Reforma de fachada realizada por Kerania" width="1200" height="801" fetchpriority="high">
           <figcaption><span>Experiencia en obra</span><span>Precisión en cada detalle</span></figcaption>
         </figure>
       </div>
@@ -253,19 +254,48 @@
           <div><p class="about-eyebrow">PROYECTOS</p><h2 id="projects-title">El trabajo <span>cuenta mejor</span> nuestra historia</h2></div>
           <a class="about-link" href="../proyectos/index.html">Ver todos los proyectos <span aria-hidden="true">→</span></a>
         </div>
-        <div class="about-projects__grid">
-          <a class="about-project-card about-reveal" href="../proyectos/pavimento-porcelanico-gran-formato/index.html">
-            <span class="about-project-card__media"><img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&amp;fit=crop&amp;w=1000&amp;q=85" alt="Proyecto de pavimento porcelánico de gran formato" width="1000" height="900" loading="lazy"></span>
-            <span class="about-project-card__copy"><small>Suelos</small><strong>Pavimento porcelánico gran formato</strong><span>Comunidad Valenciana</span></span>
-          </a>
-          <a class="about-project-card about-reveal about-delay-1" href="../proyectos/reforma-integral-bano-principal/index.html">
-            <span class="about-project-card__media"><img src="https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?auto=format&amp;fit=crop&amp;w=1000&amp;q=85" alt="Proyecto de reforma integral de baño" width="1000" height="900" loading="lazy"></span>
-            <span class="about-project-card__copy"><small>Baños</small><strong>Reforma integral baño principal</strong><span>Comunidad Valenciana</span></span>
-          </a>
-          <a class="about-project-card about-reveal about-delay-2" href="../proyectos/revestimiento-fachada-exterior/index.html">
-            <span class="about-project-card__media"><img src="https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&amp;fit=crop&amp;w=1000&amp;q=85" alt="Proyecto de revestimiento de fachada exterior" width="1000" height="900" loading="lazy"></span>
-            <span class="about-project-card__copy"><small>Fachadas</small><strong>Revestimiento fachada exterior</strong><span>Comunidad Valenciana</span></span>
-          </a>
+        <div class="portfolio-grid about-projects__cards" id="projects-grid">
+          <article class="portfolio-card" data-category="revestimientos">
+            <a class="portfolio-card__trigger" href="../proyectos/galeria-revestimientos/index.html" data-project="galeria-revestimientos" aria-label="Abrir galería de Revestimientos">
+              <span class="portfolio-card__media"><img src="../proyectos/Revestimientos/DIENSTLEISTUNGEN_NEW2_KERAMIK-4.jpg" alt="Pavimento cerámico de acabado madera en un salón abierto a la cocina" width="500" height="500" loading="lazy"></span>
+              <span class="portfolio-card__overlay"><span class="portfolio-card__category">Galería de materiales</span><strong>Revestimientos</strong><span class="portfolio-card__location">Cerámica, gran formato y otros acabados</span><span class="portfolio-card__arrow" aria-hidden="true">→</span></span>
+            </a>
+          </article>
+
+          <article class="portfolio-card" data-category="banos">
+            <a class="portfolio-card__trigger" href="../proyectos/galeria-banos/index.html" data-project="galeria-banos" aria-label="Abrir galería de Baños">
+              <span class="portfolio-card__media"><img src="../proyectos/Ban%CC%83os/Banos-9.jpg" alt="Baño con bañera exenta, lavabo doble y revestimientos de acabado madera" width="1200" height="801" loading="lazy"></span>
+              <span class="portfolio-card__overlay"><span class="portfolio-card__category">Reformas y revestimientos</span><strong>Baños</strong><span class="portfolio-card__location">Suelos, paredes y zonas húmedas</span><span class="portfolio-card__arrow" aria-hidden="true">→</span></span>
+            </a>
+          </article>
+
+          <article class="portfolio-card" data-category="fachadas">
+            <a class="portfolio-card__trigger" href="../proyectos/galeria-fachadas/index.html" data-project="galeria-fachadas" aria-label="Abrir galería de Fachadas">
+              <span class="portfolio-card__media"><img src="../proyectos/Fachadas/02_ueberbauung_huerstwald-1024x768.jpg" alt="Conjunto de edificios residenciales con fachadas claras y zonas comunes ajardinadas" width="1024" height="768" loading="lazy"></span>
+              <span class="portfolio-card__overlay"><span class="portfolio-card__category">Obras de gran envergadura</span><strong>Fachadas</strong><span class="portfolio-card__location">Solidez técnica y ejecución precisa</span><span class="portfolio-card__arrow" aria-hidden="true">→</span></span>
+            </a>
+          </article>
+
+          <article class="portfolio-card" data-category="exteriores">
+            <a class="portfolio-card__trigger" href="../proyectos/galeria-terrazas/index.html" data-project="galeria-terrazas" aria-label="Abrir galería de Exteriores">
+              <span class="portfolio-card__media"><img src="../proyectos/Exteriores/terrazas4.jpg" alt="Terraza con pavimento claro, tumbonas y zonas ajardinadas" width="1440" height="830" loading="lazy"></span>
+              <span class="portfolio-card__overlay"><span class="portfolio-card__category">Pavimentos y acabados exteriores</span><strong>Exteriores</strong><span class="portfolio-card__location">Terrazas, piscinas y zonas de descanso</span><span class="portfolio-card__arrow" aria-hidden="true">→</span></span>
+            </a>
+          </article>
+
+          <article class="portfolio-card" data-category="acabados">
+            <a class="portfolio-card__trigger" href="../proyectos/galeria-suelos/index.html" data-project="galeria-suelos" aria-label="Abrir galería de Suelos">
+              <span class="portfolio-card__media"><img src="../proyectos/Suelos/Suelos-10.jpg" alt="Suelo en tonos claros en un salón con iluminación perimetral" width="1200" height="804" loading="lazy"></span>
+              <span class="portfolio-card__overlay"><span class="portfolio-card__category">Instalación y acabados</span><strong>Suelos</strong><span class="portfolio-card__location">Cerámica, porcelánico y gran formato</span><span class="portfolio-card__arrow" aria-hidden="true">→</span></span>
+            </a>
+          </article>
+
+          <article class="portfolio-card" data-category="acabados">
+            <a class="portfolio-card__trigger" href="../proyectos/galeria-detalles-especiales/index.html" data-project="galeria-detalles-especiales" aria-label="Abrir galería de Reparaciones y acabados especiales">
+              <span class="portfolio-card__media"><img src="../proyectos/Reparaciones%20y%20acabados%20especiales/clear-water-swimming-pool-daytime.jpg" alt="Encuentro del revestimiento con el borde de una piscina" width="3000" height="2000" loading="lazy"></span>
+              <span class="portfolio-card__overlay"><span class="portfolio-card__category">Precisión y sellado de juntas</span><strong>Reparaciones y acabados especiales</strong><span class="portfolio-card__location">Juntas, encuentros y remates</span><span class="portfolio-card__arrow" aria-hidden="true">→</span></span>
+            </a>
+          </article>
         </div>
       </div>
     </section>

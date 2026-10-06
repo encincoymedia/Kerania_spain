@@ -9,8 +9,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../../styles.css">
-  <link rel="stylesheet" href="instalaciones-revestimientos.css">
+  <link rel="stylesheet" href="../../styles.css?v=20261006-menu-1">
+  <link rel="stylesheet" href="instalaciones-revestimientos.css?v=20261006-5">
   <script>document.documentElement.className = 'js';</script>
   <script type="application/ld+json">
   {
@@ -36,6 +36,7 @@
     ]
   }
   </script>
+  <link rel="stylesheet" href="../../proyectos/proyectos-servicios.css?v=20261006-2">
 </head>
 <body class="service-page">
   <div class="scroll-progress-bar" id="scroll-progress" aria-hidden="true"></div>
@@ -98,12 +99,10 @@
     <section class="service-hero" aria-labelledby="service-title">
       <div class="container service-hero__grid">
         <div class="service-hero__content service-reveal">
-          <p class="service-eyebrow">01 / INSTALACIONES Y REVESTIMIENTOS</p>
           <h1 id="service-title">Instalación de <span class="service-hero__accent">cerámica, porcelánico y revestimientos</span> en Valencia</h1>
           <p class="service-hero__intro">Instalamos pavimentos y revestimientos cerámicos en proyectos residenciales y profesionales, cuidando la preparación de las superficies, la precisión en la colocación y cada detalle del acabado.</p>
           <div class="hero__actions service-hero__actions">
             <a class="hero__btn-outline" href="#contacto">Solicitar presupuesto</a>
-            <a class="hero__btn-link" href="#proyectos-relacionados">Ver proyectos</a>
           </div>
         </div>
         <figure class="service-hero__media service-reveal service-delay-1">
@@ -137,12 +136,12 @@
 
         <article class="specialty specialty--wide service-reveal">
           <figure class="specialty__image">
-            <img src="../../Imagenes/instalaciones-revestimientos/instalacion-pavimento-revestimiento-kerania.webp" alt="Colocación de pavimentos y revestimientos cerámicos en exterior" width="1200" height="801" loading="lazy">
+            <img src="../../proyectos/Fachadas/02_ueberbauung_huerstwald.jpg" alt="Detalle de una fachada clara revestida con piezas de formato alargado" width="1024" height="758" loading="lazy">
           </figure>
           <div class="specialty__content">
             <span class="specialty__number">01</span>
             <h3>Colocación de cerámica y porcelánico</h3>
-            <p>Instalación profesional de pavimentos y revestimientos cerámicos para viviendas, locales y proyectos profesionales.</p>
+            <p>Instalación profesional de revestimientos cerámicos para grandes obras y proyectos de gran envergadura. Una ejecución que exige planificación, coordinación con los distintos equipos de obra y precisión técnica en cada fase.</p>
             <p>Cada colocación se adapta al formato de la pieza, al soporte existente y a las condiciones del espacio para conseguir superficies uniformes, resistentes y visualmente equilibradas, tanto en paredes y suelos como en espacios interiores y exteriores.</p>
           </div>
         </article>
@@ -165,7 +164,7 @@
           </figure>
           <div class="specialty__content">
             <span class="specialty__number">03</span>
-            <h3>Instalación de porcelánico de gran formato</h3>
+            <h3 class="specialty__title--large-format"><span>Instalación de</span> <span>porcelánico</span> <span>de gran formato</span></h3>
             <p>Las piezas de gran formato requieren planificación, experiencia y una ejecución especialmente precisa.</p>
             <p>Su tamaño condiciona la manipulación, la preparación del soporte, los cortes, la alineación y los encuentros entre piezas. Una correcta instalación permite conseguir superficies más continuas, con menos juntas y una estética arquitectónica más limpia.</p>
             <p class="applications">Baños · Pavimentos · Revestimientos · Espacios residenciales · Proyectos profesionales</p>
@@ -189,7 +188,7 @@
             <article class="technical-item service-reveal"><span>04</span><div><h3>Planificación</h3><p>La posición de las piezas, los cortes y los encuentros se estudian antes de ejecutar.</p></div></article>
           </div>
           <figure class="technical-grid__image service-reveal service-delay-1">
-            <img src="../../Imagenes/instalaciones-revestimientos/detalle-pavimento-exterior-kerania.webp" alt="Geometría y nivelación de un pavimento exterior" width="614" height="801" loading="lazy">
+            <img src="../../proyectos/Revestimientos/buen_acabado.webp" alt="Profesionales colocando y ajustando piezas cerámicas sobre el suelo" width="567" height="850" loading="lazy">
           </figure>
         </div>
       </div>
@@ -220,7 +219,7 @@
         </div>
         <div class="materials-list">
           <article class="material-row">
-            <figure class="material-row__image service-reveal"><img src="cera%CC%81mica.webp" alt="Colocación de piezas cerámicas" width="640" height="1024" loading="lazy"></figure>
+            <figure class="material-row__image service-reveal"><img src="../../proyectos/Ban%CC%83os/kerania_st_1.png" alt="Baño con revestimientos cerámicos claros y lavabo blanco" width="1000" height="1274" loading="lazy"></figure>
             <div class="material-card service-reveal"><span>01</span><h3>Cerámica</h3><p>Material versátil utilizado en pavimentos y revestimientos interiores y exteriores.</p></div>
           </article>
           <article class="material-row">
@@ -293,27 +292,56 @@
       </div>
     </section>
 
-    <section class="service-section project-section" id="proyectos-relacionados" aria-labelledby="projects-title">
+    <section class="service-section portfolio-work" id="proyectos-relacionados" data-projects-section aria-labelledby="portfolio-grid-title">
       <div class="container">
-        <div class="section-heading section-heading--split service-reveal">
-          <div><p class="service-eyebrow">PROYECTOS</p><h2 id="projects-title">Instalaciones realizadas por Kerania</h2></div>
-          <p class="documentation-note">Las fichas están preparadas para incorporar la información verificada de cada proyecto.</p>
+        <div class="section-heading service-projects-heading">
+          <h2 id="portfolio-grid-title">Materiales que <span class="service-title-accent">transforman espacios</span></h2>
+          <p>Descubre una selección de revestimientos, suelos y acabados que instalamos en interiores y exteriores. Cada material exige una preparación adecuada del soporte y precisión en la colocación, los cortes y las juntas para conseguir un resultado cuidado y duradero.</p>
         </div>
-        <div class="editorial-projects">
-          <article class="editorial-project service-reveal">
-            <figure><img src="../../Imagenes/instalaciones-revestimientos/instalacion-pavimento-revestimiento-kerania.webp" alt="Proyecto Kerania de pavimentos y revestimientos pendiente de documentación" width="1200" height="801" loading="lazy"></figure>
-            <div class="editorial-project__info"><p class="project-placeholder">FICHA PENDIENTE DE DOCUMENTACIÓN</p><h3>Nombre del proyecto pendiente</h3><dl><div><dt>Ubicación</dt><dd>Por confirmar</dd></div><div><dt>Tipo de trabajo</dt><dd>Por confirmar</dd></div><div><dt>Material o servicio</dt><dd>Por confirmar</dd></div></dl></div>
+
+        <div class="portfolio-grid" id="projects-grid">
+          <article class="portfolio-card" data-category="revestimientos">
+            <a class="portfolio-card__trigger" href="../../proyectos/galeria-revestimientos/index.html" data-project="galeria-revestimientos" aria-label="Abrir galería de Revestimientos">
+              <span class="portfolio-card__media"><img src="../../proyectos/Revestimientos/DIENSTLEISTUNGEN_NEW2_KERAMIK-4.jpg" alt="Pavimento cerámico de acabado madera en un salón abierto a la cocina" width="500" height="500" loading="lazy"></span>
+              <span class="portfolio-card__overlay"><span class="portfolio-card__category">Galería de materiales</span><strong>Revestimientos</strong><span class="portfolio-card__location">Cerámica, gran formato y otros acabados</span><span class="portfolio-card__arrow" aria-hidden="true">→</span></span>
+            </a>
           </article>
-          <article class="editorial-project editorial-project--offset service-reveal">
-            <figure><img src="../../Imagenes/instalaciones-revestimientos/revestimiento-ceramico-bano-kerania.webp" alt="Proyecto Kerania de revestimiento de baño pendiente de documentación" width="577" height="801" loading="lazy"></figure>
-            <div class="editorial-project__info"><p class="project-placeholder">FICHA PENDIENTE DE DOCUMENTACIÓN</p><h3>Nombre del proyecto pendiente</h3><dl><div><dt>Ubicación</dt><dd>Por confirmar</dd></div><div><dt>Tipo de trabajo</dt><dd>Por confirmar</dd></div><div><dt>Material o servicio</dt><dd>Por confirmar</dd></div></dl></div>
+
+          <article class="portfolio-card" data-category="banos">
+            <a class="portfolio-card__trigger" href="../../proyectos/galeria-banos/index.html" data-project="galeria-banos" aria-label="Abrir galería de Baños">
+              <span class="portfolio-card__media"><img src="../../proyectos/Ban%CC%83os/Banos-9.jpg" alt="Baño con bañera exenta, lavabo doble y revestimientos de acabado madera" width="1200" height="801" loading="lazy"></span>
+              <span class="portfolio-card__overlay"><span class="portfolio-card__category">Reformas y revestimientos</span><strong>Baños</strong><span class="portfolio-card__location">Suelos, paredes y zonas húmedas</span><span class="portfolio-card__arrow" aria-hidden="true">→</span></span>
+            </a>
           </article>
-          <article class="editorial-project service-reveal">
-            <figure><img src="../../Imagenes/instalaciones-revestimientos/porcelanico-gran-formato-kerania.webp" alt="Proyecto Kerania de gran formato pendiente de documentación" width="1200" height="799" loading="lazy"></figure>
-            <div class="editorial-project__info"><p class="project-placeholder">FICHA PENDIENTE DE DOCUMENTACIÓN</p><h3>Nombre del proyecto pendiente</h3><dl><div><dt>Ubicación</dt><dd>Por confirmar</dd></div><div><dt>Tipo de trabajo</dt><dd>Por confirmar</dd></div><div><dt>Material o servicio</dt><dd>Por confirmar</dd></div></dl></div>
+
+          <article class="portfolio-card" data-category="fachadas">
+            <a class="portfolio-card__trigger" href="../../proyectos/galeria-fachadas/index.html" data-project="galeria-fachadas" aria-label="Abrir galería de Fachadas">
+              <span class="portfolio-card__media"><img src="../../proyectos/Fachadas/02_ueberbauung_huerstwald-1024x768.jpg" alt="Conjunto de edificios residenciales con fachadas claras y zonas comunes ajardinadas" width="1024" height="768" loading="lazy"></span>
+              <span class="portfolio-card__overlay"><span class="portfolio-card__category">Obras de gran envergadura</span><strong>Fachadas</strong><span class="portfolio-card__location">Solidez técnica y ejecución precisa</span><span class="portfolio-card__arrow" aria-hidden="true">→</span></span>
+            </a>
+          </article>
+
+          <article class="portfolio-card" data-category="exteriores">
+            <a class="portfolio-card__trigger" href="../../proyectos/galeria-terrazas/index.html" data-project="galeria-terrazas" aria-label="Abrir galería de Exteriores">
+              <span class="portfolio-card__media"><img src="../../proyectos/Exteriores/terrazas4.jpg" alt="Terraza con pavimento claro, tumbonas y zonas ajardinadas" width="1440" height="830" loading="lazy"></span>
+              <span class="portfolio-card__overlay"><span class="portfolio-card__category">Pavimentos y acabados exteriores</span><strong>Exteriores</strong><span class="portfolio-card__location">Terrazas, piscinas y zonas de descanso</span><span class="portfolio-card__arrow" aria-hidden="true">→</span></span>
+            </a>
+          </article>
+
+          <article class="portfolio-card" data-category="acabados">
+            <a class="portfolio-card__trigger" href="../../proyectos/galeria-suelos/index.html" data-project="galeria-suelos" aria-label="Abrir galería de Suelos">
+              <span class="portfolio-card__media"><img src="../../proyectos/Suelos/Suelos-10.jpg" alt="Suelo en tonos claros en un salón con iluminación perimetral" width="1200" height="804" loading="lazy"></span>
+              <span class="portfolio-card__overlay"><span class="portfolio-card__category">Instalación y acabados</span><strong>Suelos</strong><span class="portfolio-card__location">Cerámica, porcelánico y gran formato</span><span class="portfolio-card__arrow" aria-hidden="true">→</span></span>
+            </a>
+          </article>
+
+          <article class="portfolio-card" data-category="acabados">
+            <a class="portfolio-card__trigger" href="../../proyectos/galeria-detalles-especiales/index.html" data-project="galeria-detalles-especiales" aria-label="Abrir galería de Reparaciones y acabados especiales">
+              <span class="portfolio-card__media"><img src="../../proyectos/Reparaciones%20y%20acabados%20especiales/clear-water-swimming-pool-daytime.jpg" alt="Encuentro del revestimiento con el borde de una piscina" width="3000" height="2000" loading="lazy"></span>
+              <span class="portfolio-card__overlay"><span class="portfolio-card__category">Precisión y sellado de juntas</span><strong>Reparaciones y acabados especiales</strong><span class="portfolio-card__location">Juntas, encuentros y remates</span><span class="portfolio-card__arrow" aria-hidden="true">→</span></span>
+            </a>
           </article>
         </div>
-        <a class="section-link service-reveal" href="../../proyectos/index.html">Ver todos los proyectos <span aria-hidden="true">→</span></a>
       </div>
     </section>
 

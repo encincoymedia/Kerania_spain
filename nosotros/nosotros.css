@@ -36,9 +36,9 @@ body.about-page { overflow-x: hidden; background: var(--about-white); color: var
 .about-hero h1 { max-width: 1120px; margin: 0 auto; font-size: clamp(3.4rem, 5.35vw, 5.8rem); line-height: .95; font-weight: 700; letter-spacing: -.06em; text-wrap: balance; }
 .about-hero h1 span { color: var(--about-green); }
 .about-hero__intro { max-width: 760px; margin: 30px auto 0; color: var(--about-muted); font-size: clamp(1rem, 1.25vw, 1.2rem); line-height: 1.75; }
-.about-hero__actions { justify-content: center; margin-top: 40px; }
+.about-hero__actions { flex-direction: column; align-items: center; justify-content: center; margin-top: 40px; }
 .about-hero__media { position: relative; width: 100%; aspect-ratio: 16 / 9; height: auto; min-height: 0; margin: 0; background: transparent; }
-.about-hero__media > img { display: block; width: 100%; height: 100%; border-radius: 24px; object-fit: cover; object-position: center 58%; }
+.about-hero__media > img { display: block; width: 100%; height: 100%; border-radius: 24px; object-fit: cover; object-position: center; }
 .about-hero__media figcaption { display: flex; justify-content: space-between; gap: 16px; padding-top: 13px; color: #777873; font-size: .69rem; letter-spacing: .11em; text-transform: uppercase; }
 
 .about-section { padding: clamp(105px, 11vw, 170px) 0; }
@@ -82,7 +82,7 @@ body.about-page { overflow-x: hidden; background: var(--about-white); color: var
 .about-method__step:hover { border-color: rgba(115,138,45,.24); background: rgba(173,199,90,.18); box-shadow: 0 24px 54px rgba(33,33,33,.1); transform: translateY(-6px); }
 .about-method__step:not(:last-child)::after { content: ""; position: absolute; top: 51px; left: 100%; width: 18px; border-top: 1px dashed rgba(115,138,45,.65); }
 .about-method__step > span { display: grid; width: 46px; height: 46px; flex: 0 0 46px; place-items: center; border-radius: 50%; background: var(--about-ink); color: #fff; font-size: .67rem; font-weight: 600; letter-spacing: .12em; }
-.about-method__step h3 { margin: auto 0 15px; font-size: clamp(1.45rem, 2vw, 1.85rem); letter-spacing: -.035em; }
+.about-method__step h3 { margin: 52px 0 15px; font-size: clamp(1.45rem, 2vw, 1.85rem); line-height: 1.2; letter-spacing: -.035em; }
 .about-method__step p { margin: 0; color: var(--about-muted); font-size: .92rem; line-height: 1.7; }
 
 .about-specialties { background: #fff; }
@@ -112,6 +112,7 @@ body.about-page { overflow-x: hidden; background: var(--about-white); color: var
 .about-projects { background: var(--about-soft); }
 .about-projects__heading { display: flex; justify-content: space-between; gap: 60px; align-items: end; }
 .about-projects__heading > div { max-width: 900px; }
+.about-projects__cards { margin-top: clamp(36px, 4vw, 64px); }
 .about-projects__grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 22px; margin-top: clamp(60px, 8vw, 100px); }
 .about-project-card { display: grid; color: var(--about-ink); }
 .about-project-card__media { display: block; height: 500px; overflow: hidden; border-radius: 14px; background: #dfe1d9; }

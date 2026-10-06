@@ -195,10 +195,12 @@ button {
   inset: -14px -12px;
 }
 
-.header__services-menu summary.header__nav-link::after {
+.header__services-menu summary.header__nav-link::after,
+.header__services-menu summary.header__nav-link.active::after {
   content: '';
   position: static;
   display: inline-block;
+  flex: 0 0 auto;
   width: 6px;
   height: 6px;
   margin: 0 0 3px 8px;
