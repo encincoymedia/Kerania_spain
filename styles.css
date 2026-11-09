@@ -153,7 +153,7 @@ button {
 }
 
 .header__logo-img {
-  height: 48px;
+  height: 63.48px;
   width: auto;
   display: block;
 }
@@ -3306,7 +3306,7 @@ a:focus-visible, button:focus-visible { outline: 3px solid #647d23; outline-offs
 
 @media (max-width: 768px) {
   .home-page .header:not(.scrolled) .header__logo-img {
-    height: 42px;
+    height: 55.545px;
   }
 
   .hero {
@@ -3601,7 +3601,7 @@ a:focus-visible, button:focus-visible { outline: 3px solid #647d23; outline-offs
 /* Service-page image rules must not resize the shared header logo. */
 .service-page .header__logo-img {
   width: auto;
-  height: 48px;
+  height: 63.48px;
   object-fit: contain;
 }
 

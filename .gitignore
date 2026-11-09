@@ -36,3 +36,9 @@ temp/
 .idea/
 .vscode/
 Imagenes/logos_clientes/nuevos logos.ai
+
+# Originales y evidencias conservados solo en local
+/backups/
+/reports/
+*.ai
+/.deploy-staging/
