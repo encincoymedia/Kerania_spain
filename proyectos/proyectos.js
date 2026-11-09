@@ -18,21 +18,21 @@
       service: 'Instalaciones y revestimientos',
       serviceHref: '../servicios/instalaciones-revestimientos/',
       gallery: [
-        { src: 'Revestimientos/DIENSTLEISTUNGEN_NEW2_KERAMIK-4.jpg', alt: 'Pavimento cerámico de acabado madera en un salón abierto a la cocina' },
-        { src: 'Revestimientos/DIENSTLEISTUNGEN_NEW2_KERAMIK-8.jpg', alt: 'Baldosas de gran formato en el suelo y las paredes de un baño' },
-        { src: 'Revestimientos/DIENSTLEISTUNGEN_NEW_KERAMIK-3.jpg', alt: 'Azulejos grises en una ducha junto a un lavabo sobre madera' },
-        { src: 'Revestimientos/DIENSTLEISTUNGEN_NEW_KERAMIK-1.jpg', alt: 'Revestimiento cerámico gris con una franja de mosaico en la ducha' },
-        { src: 'Revestimientos/DIENSTLEISTUNGEN_NEW2_MOSAIK-1.jpg', alt: 'Mosaico azul y verde en la pared de una ducha' },
-        { src: 'Revestimientos/DIENSTLEISTUNGEN_NEW2_MOSAIK-2.jpg', alt: 'Mosaico en tonos naturales junto a un lavabo sobre una repisa de madera' },
-        { src: 'Revestimientos/DIENSTLEISTUNGEN_NEW_KUNSTEIN-2-2.jpg', alt: 'Detalle de un pavimento decorativo con fragmentos de piedra en blanco y negro' },
-        { src: 'Revestimientos/DIENSTLEISTUNGEN_NEW_KUNSTEIN-4.jpg', alt: 'Revestimiento gris de textura pétrea en una escalera y su pared' },
-        { src: 'Revestimientos/DIENSTLEISTUNGEN_NEW_KUNSTEIN-5.jpg', alt: 'Baldosas decorativas con un dibujo geométrico en blanco y rosa' },
-        { src: 'Revestimientos/DIENSTLEISTUNGEN_NEW_SKINROCK-10.jpg', alt: 'Revestimiento Skinrock gris junto a un lavabo blanco' },
-        { src: 'Revestimientos/DIENSTLEISTUNGEN_NEW_SKINROCK-11.jpg', alt: 'Superficie revestida con Skinrock en un espacio interior' },
-        { src: 'Revestimientos/DIENSTLEISTUNGEN_NEW_SKINROCK-12.jpg', alt: 'Revestimiento Skinrock en las paredes de una ducha' },
-        { src: 'Revestimientos/DIENSTLEISTUNGEN_NEW_SKINROCK-14.jpg', alt: 'Revestimiento Skinrock de tonos ocres con estantes integrados' },
-        { src: 'Revestimientos/DIENSTLEISTUNGEN_NEW_SKINROCK-16.jpg', alt: 'Panel de Skinrock gris iluminado desde arriba' },
-        { src: 'Revestimientos/DIENSTLEISTUNGEN_NEW_SKINROCK-3_2.jpg', alt: 'Revestimiento Skinrock en la pared de una escalera' }
+        { src: '../assets/img/proyectos/revestimientos/dienstleistungen-new2-keramik-4.jpg', alt: 'Pavimento cerámico de acabado madera en un salón abierto a la cocina' },
+        { src: '../assets/img/proyectos/banos/dienstleistungen-new2-keramik-8.jpg', alt: 'Baldosas de gran formato en el suelo y las paredes de un baño' },
+        { src: '../assets/img/proyectos/banos/dienstleistungen-new-keramik-3.jpg', alt: 'Azulejos grises en una ducha junto a un lavabo sobre madera' },
+        { src: '../assets/img/proyectos/banos/dienstleistungen-new-keramik-1.jpg', alt: 'Revestimiento cerámico gris con una franja de mosaico en la ducha' },
+        { src: '../assets/img/proyectos/revestimientos/dienstleistungen-new2-mosaik-1.jpg', alt: 'Mosaico azul y verde en la pared de una ducha' },
+        { src: '../assets/img/proyectos/revestimientos/dienstleistungen-new2-mosaik-2.jpg', alt: 'Mosaico en tonos naturales junto a un lavabo sobre una repisa de madera' },
+        { src: '../assets/img/proyectos/revestimientos/dienstleistungen-new-kunstein-2-2.jpg', alt: 'Detalle de un pavimento decorativo con fragmentos de piedra en blanco y negro' },
+        { src: '../assets/img/proyectos/revestimientos/dienstleistungen-new-kunstein-4.jpg', alt: 'Revestimiento gris de textura pétrea en una escalera y su pared' },
+        { src: '../assets/img/proyectos/revestimientos/dienstleistungen-new-kunstein-5.jpg', alt: 'Baldosas decorativas con un dibujo geométrico en blanco y rosa' },
+        { src: '../assets/img/proyectos/revestimientos/dienstleistungen-new-skinrock-10.jpg', alt: 'Revestimiento Skinrock gris junto a un lavabo blanco' },
+        { src: '../assets/img/proyectos/revestimientos/dienstleistungen-new-skinrock-11.jpg', alt: 'Superficie revestida con Skinrock en un espacio interior' },
+        { src: '../assets/img/proyectos/revestimientos/dienstleistungen-new-skinrock-12.jpg', alt: 'Revestimiento Skinrock en las paredes de una ducha' },
+        { src: '../assets/img/proyectos/revestimientos/dienstleistungen-new-skinrock-14.jpg', alt: 'Revestimiento Skinrock de tonos ocres con estantes integrados' },
+        { src: '../assets/img/proyectos/revestimientos/dienstleistungen-new-skinrock-16.jpg', alt: 'Panel de Skinrock gris iluminado desde arriba' },
+        { src: '../assets/img/proyectos/revestimientos/dienstleistungen-new-skinrock-3-2.jpg', alt: 'Revestimiento Skinrock en la pared de una escalera' }
       ]
     },
     'galeria-banos': {
@@ -53,115 +53,115 @@
       "serviceHref": "../servicios/reformas-construccion/",
       "gallery": [
         {
-          "src": "Ba%C3%B1os/Banos-9.jpg",
+          "src": "../assets/img/proyectos/banos/banos-9.jpg",
           "alt": "Baño con bañera exenta, lavabo doble y revestimientos de acabado madera",
           "width": 1200,
           "height": 801
         },
         {
-          "src": "Ba%C3%B1os/Banos-16.jpg",
+          "src": "../assets/img/proyectos/banos/banos-16.jpg",
           "alt": "Baño de tonos claros con lavabo suspendido y ducha con mampara de cristal",
           "width": 1200,
           "height": 801
         },
         {
-          "src": "Ba%C3%B1os/Banos-15.jpg",
+          "src": "../assets/img/proyectos/banos/banos-15.jpg",
           "alt": "Lavabo doble con espejos e iluminación sobre revestimientos grises",
           "width": 1200,
           "height": 801
         },
         {
-          "src": "Ba%C3%B1os/Banos-12.jpg",
+          "src": "../assets/img/proyectos/banos/banos-12.jpg",
           "alt": "Baño con bañera y revestimientos de acabado madera combinados con negro",
           "width": 1200,
           "height": 801
         },
         {
-          "src": "Ba%C3%B1os/Banos-11.jpg",
+          "src": "../assets/img/proyectos/banos/banos-11.jpg",
           "alt": "Detalle de un lavabo y una bañera junto a revestimientos de acabado madera",
           "width": 1200,
           "height": 787
         },
         {
-          "src": "Ba%C3%B1os/kerania_bad_2.jpg",
+          "src": "../assets/img/proyectos/banos/kerania-bad-2.jpg",
           "alt": "Baño con bañera exenta blanca, lavabos negros y revestimientos grises",
           "width": 1920,
           "height": 800
         },
         {
-          "src": "Ba%C3%B1os/hg_badezimmer1-scaled.jpg",
+          "src": "../assets/img/proyectos/banos/hg-badezimmer1-scaled.jpg",
           "alt": "Baño con azulejos blancos y pavimento de cuadros en blanco y negro",
           "width": 2560,
           "height": 2560
         },
         {
-          "src": "Ba%C3%B1os/hg_badezimmer2-1024x1024.jpg",
+          "src": "../assets/img/proyectos/banos/hg-badezimmer2-1024x1024.jpg",
           "alt": "Ducha con mampara negra en un baño con pavimento de cuadros",
           "width": 1024,
           "height": 1024
         },
         {
-          "src": "Ba%C3%B1os/DIENSTLEISTUNGEN_NEW2_KERAMIK-8.jpg",
+          "src": "../assets/img/proyectos/banos/dienstleistungen-new2-keramik-8.jpg",
           "alt": "Baño con baldosas grises de gran formato y lavabo suspendido",
           "width": 500,
           "height": 500
         },
         {
-          "src": "Ba%C3%B1os/DIENSTLEISTUNGEN_NEW_KERAMIK-3.jpg",
+          "src": "../assets/img/proyectos/banos/dienstleistungen-new-keramik-3.jpg",
           "alt": "Ducha revestida con azulejos grises junto a un lavabo sobre madera",
           "width": 500,
           "height": 500
         },
         {
-          "src": "Ba%C3%B1os/DIENSTLEISTUNGEN_NEW_KERAMIK-1.jpg",
+          "src": "../assets/img/proyectos/banos/dienstleistungen-new-keramik-1.jpg",
           "alt": "Ducha con revestimiento cerámico gris y una franja de mosaico",
           "width": 500,
           "height": 500
         },
         {
-          "src": "Ba%C3%B1os/IMG_8898.jpg",
+          "src": "../assets/img/proyectos/banos/img-8898.jpg",
           "alt": "Lavabo de piedra sobre una encimera veteada junto a una pared de mosaico",
           "width": 640,
           "height": 480
         },
         {
-          "src": "Ba%C3%B1os/kerania_langfurren1.jpg",
+          "src": "../assets/img/proyectos/banos/kerania-langfurren1.jpg",
           "alt": "Baño con bañera, mampara y revestimientos grises",
           "width": 1000,
           "height": 666
         },
         {
-          "src": "Ba%C3%B1os/kerania_langfurren2.jpg",
+          "src": "../assets/img/proyectos/banos/kerania-langfurren2.jpg",
           "alt": "Lavabo blanco y espejo iluminado en un baño de tonos cálidos",
           "width": 1000,
           "height": 666
         },
         {
-          "src": "Ba%C3%B1os/kerania_langfurren5.jpg",
+          "src": "../assets/img/proyectos/banos/kerania-langfurren5.jpg",
           "alt": "Detalle del lavabo y el inodoro junto a un revestimiento de tonos cálidos",
           "width": 1000,
           "height": 666
         },
         {
-          "src": "Ba%C3%B1os/kerania_st_1.png",
+          "src": "../assets/img/proyectos/banos/kerania-st-1.png",
           "alt": "Baño alargado con lavabo doble y ducha al fondo",
           "width": 1000,
           "height": 1274
         },
         {
-          "src": "Ba%C3%B1os/kerania_st_2.png",
+          "src": "../assets/img/proyectos/banos/kerania-st-2.png",
           "alt": "Vista de un baño estrecho con lavabo y espejo sobre una pared revestida",
           "width": 1000,
           "height": 1277
         },
         {
-          "src": "Ba%C3%B1os/kerania_strang.jpg",
+          "src": "../assets/img/proyectos/banos/kerania-strang.jpg",
           "alt": "Baño con bañera, revestimientos claros y techo de madera",
           "width": 960,
           "height": 960
         },
         {
-          "src": "Ba%C3%B1os/zu_foto11.jpg",
+          "src": "../assets/img/proyectos/banos/zu-foto11.jpg",
           "alt": "Baño con ducha, lavabo e instalación de lavadora bajo un techo de madera",
           "width": 1600,
           "height": 1600
@@ -186,79 +186,79 @@
       "serviceHref": "../servicios/reformas-construccion/",
       "gallery": [
         {
-          "src": "Fachadas/02_ueberbauung_huerstwald-1024x768.jpg",
+          "src": "../assets/img/proyectos/fachadas/02-ueberbauung-huerstwald-1024x768.jpg",
           "alt": "Conjunto de edificios residenciales con fachadas claras y zonas comunes ajardinadas",
           "width": 1024,
           "height": 768
         },
         {
-          "src": "Fachadas/Fachadas-7.jpg",
+          "src": "../assets/img/generales/image-hero.jpg",
           "alt": "Fachada de una vivienda contemporánea con volúmenes claros y revestimientos de tonos cálidos",
           "width": 1200,
           "height": 801
         },
         {
-          "src": "Fachadas/Fachadas-8.jpg",
+          "src": "../assets/img/proyectos/fachadas/fachadas-8.jpg",
           "alt": "Vista frontal de una vivienda con balcones y diferentes acabados de fachada",
           "width": 1200,
           "height": 801
         },
         {
-          "src": "Fachadas/Fachadas-1.jpg",
+          "src": "../assets/img/proyectos/fachadas/fachadas-1.jpg",
           "alt": "Fachada de ladrillo de una vivienda con porche y jardín",
           "width": 1200,
           "height": 800
         },
         {
-          "src": "Fachadas/01_ueberbauung_bachmaettli-1024x768.jpg",
+          "src": "../assets/img/proyectos/fachadas/01-ueberbauung-bachmaettli-1024x768.jpg",
           "alt": "Edificio residencial con fachada gris y balcones abiertos",
           "width": 1024,
           "height": 768
         },
         {
-          "src": "Fachadas/02_ueberbauung_bachmaettli-1024x768.jpg",
+          "src": "../assets/img/proyectos/fachadas/02-ueberbauung-bachmaettli-1024x768.jpg",
           "alt": "Esquina de un edificio con balcones y ventanas integrados en la fachada",
           "width": 1024,
           "height": 768
         },
         {
-          "src": "Fachadas/01_ueberbauung_huerstwald.jpg",
+          "src": "../assets/img/proyectos/fachadas/01-ueberbauung-huerstwald.jpg",
           "alt": "Fachada clara de un edificio residencial vista entre dos bloques",
           "width": 1024,
           "height": 768
         },
         {
-          "src": "Fachadas/02_ueberbauung_huerstwald.jpg",
+          "src": "../assets/img/proyectos/fachadas/02-ueberbauung-huerstwald.jpg",
           "alt": "Detalle del revestimiento de una fachada junto a una ventana",
           "width": 1024,
           "height": 758
         },
         {
-          "src": "Fachadas/03_ueberbauung_huerstwald.jpg",
+          "src": "../assets/img/proyectos/fachadas/03-ueberbauung-huerstwald.jpg",
           "alt": "Edificio residencial con fachada clara y balcones frente a una zona ajardinada",
           "width": 1024,
           "height": 768
         },
         {
-          "src": "Fachadas/05_ueberbauung_huerstwald.jpg",
+          "src": "../assets/img/proyectos/fachadas/05-ueberbauung-huerstwald.jpg",
           "alt": "Vista de las fachadas de un conjunto residencial desde su acceso ajardinado",
           "width": 970,
           "height": 647
         },
         {
-          "src": "Fachadas/01_ueberbauung_schweighofstrasse-1024x768.jpg",
+          "src": "../assets/img/proyectos/fachadas/01-ueberbauung-schweighofstrasse-1024x768.jpg",
           "alt": "Detalle de una fachada con revestimiento horizontal claro y zócalo oscuro",
           "width": 1024,
           "height": 768
         },
         {
-          "src": "Fachadas/iT4_1-1.jpg",
+          "src": "../assets/img/proyectos/fachadas/it4-1-1.jpg",
           "alt": "Fachada de un edificio residencial con balcones y jardineras",
           "width": 960,
           "height": 960
         },
         {
-          "src": "Fachadas/iT4_2.jpg",
+          "src": "../assets/img/proyectos/fachadas/it4-2.jpg",
           "alt": "Vista de las fachadas de varios edificios residenciales alrededor de una plaza",
           "width": 960,
           "height": 960
@@ -283,37 +283,37 @@
       "serviceHref": "../servicios/instalaciones-revestimientos/",
       "gallery": [
         {
-          "src": "Exteriores/terrazas4.jpg",
+          "src": "../assets/img/proyectos/exteriores/terrazas4.jpg",
           "alt": "Terraza con pavimento claro, tumbonas y zonas ajardinadas",
           "width": 1440,
           "height": 830
         },
         {
-          "src": "Exteriores/terrazas6.jpg",
+          "src": "../assets/img/proyectos/exteriores/terrazas6.jpg",
           "alt": "Terraza junto a una piscina con pavimento claro y tumbonas",
           "width": 1440,
           "height": 830
         },
         {
-          "src": "Exteriores/terrazas1.jpg",
+          "src": "../assets/img/proyectos/exteriores/terrazas1.jpg",
           "alt": "Pavimento alrededor de una piscina junto a una vivienda contemporánea",
           "width": 1440,
           "height": 830
         },
         {
-          "src": "Exteriores/terrazas2.jpg",
+          "src": "../assets/img/proyectos/exteriores/terrazas2.jpg",
           "alt": "Zona de piscina con revestimiento claro, cascada y asiento de descanso",
           "width": 1440,
           "height": 830
         },
         {
-          "src": "Exteriores/terrazas3.jpg",
+          "src": "../assets/img/proyectos/exteriores/terrazas3.jpg",
           "alt": "Piscina cubierta con pavimento claro y revestimiento azul",
           "width": 1440,
           "height": 830
         },
         {
-          "src": "Exteriores/terrazas5.jpg",
+          "src": "../assets/img/proyectos/exteriores/terrazas5.jpg",
           "alt": "Zona de piscina con revestimiento de mosaico en tonos naturales",
           "width": 1440,
           "height": 830
@@ -338,67 +338,67 @@
       "serviceHref": "../servicios/acabados-detalles-especiales/",
       "gallery": [
         {
-          "src": "Reparaciones%20y%20acabados%20especiales/clear-water-swimming-pool-daytime.jpg",
+          "src": "../assets/img/proyectos/reparaciones-y-acabados-especiales/clear-water-swimming-pool-daytime.jpg",
           "alt": "Encuentro del revestimiento con el borde de una piscina",
           "width": 3000,
           "height": 2000
         },
         {
-          "src": "Reparaciones%20y%20acabados%20especiales/Sellado-de-juntas-3.jpg",
+          "src": "../assets/img/proyectos/reparaciones-y-acabados-especiales/sellado-de-juntas-3.jpg",
           "alt": "Aplicación precisa de sellador en una junta del suelo",
           "width": 1200,
           "height": 929
         },
         {
-          "src": "Reparaciones%20y%20acabados%20especiales/3d-concrete-interior-with-architectural-columns-structures.jpg",
+          "src": "../assets/img/proyectos/reparaciones-y-acabados-especiales/3d-concrete-interior-with-architectural-columns-structures.jpg",
           "alt": "Composición arquitectónica con superficies grises y encuentros geométricos",
           "width": 3840,
           "height": 2160
         },
         {
-          "src": "Reparaciones%20y%20acabados%20especiales/WhatsApp-Image-2024-10-31-at-13.20.49.jpeg",
+          "src": "../assets/img/proyectos/reparaciones-y-acabados-especiales/whatsapp-image-2024-10-31-at-13.20.49.jpeg",
           "alt": "Sellado del encuentro entre paredes y una superficie blanca",
           "width": 800,
           "height": 600
         },
         {
-          "src": "Reparaciones%20y%20acabados%20especiales/WhatsApp-Image-2024-10-31-at-13.21.42.jpeg",
+          "src": "../assets/img/proyectos/reparaciones-y-acabados-especiales/whatsapp-image-2024-10-31-at-13.21.42.jpeg",
           "alt": "Detalle de juntas y remates en una escalera revestida",
           "width": 800,
           "height": 600
         },
         {
-          "src": "Reparaciones%20y%20acabados%20especiales/WhatsApp-Image-2024-10-31-at-13.23.57.jpeg",
+          "src": "../assets/img/proyectos/reparaciones-y-acabados-especiales/whatsapp-image-2024-10-31-at-13.23.57.jpeg",
           "alt": "Encuentro entre suelo, rodapié y pared con juntas selladas",
           "width": 900,
           "height": 600
         },
         {
-          "src": "Reparaciones%20y%20acabados%20especiales/close-up-female-potter-carving-white-tiles-with-tools.jpg",
+          "src": "../assets/img/proyectos/reparaciones-y-acabados-especiales/close-up-female-potter-carving-white-tiles-with-tools.jpg",
           "alt": "Trabajo manual sobre una pieza cerámica",
           "width": 6037,
           "height": 4024
         },
         {
-          "src": "Reparaciones%20y%20acabados%20especiales/flat-lay-tiling-floor-concept.jpg",
+          "src": "../assets/img/proyectos/reparaciones-y-acabados-especiales/flat-lay-tiling-floor-concept.jpg",
           "alt": "Detalle de colocación de piezas con separadores y herramientas",
           "width": 5471,
           "height": 3647
         },
         {
-          "src": "Reparaciones%20y%20acabados%20especiales/juntas.jpg",
+          "src": "../assets/img/proyectos/reparaciones-y-acabados-especiales/juntas.jpg",
           "alt": "Detalle de sellado y terminación de juntas",
           "width": 800,
           "height": 600
         },
         {
-          "src": "Reparaciones%20y%20acabados%20especiales/paving-stone-road-background.jpg",
+          "src": "../assets/img/proyectos/reparaciones-y-acabados-especiales/paving-stone-road-background.jpg",
           "alt": "Detalle de juntas entre piezas de un suelo gris",
           "width": 5760,
           "height": 3840
         },
         {
-          "src": "Reparaciones%20y%20acabados%20especiales/stone-texture-background.jpg",
+          "src": "../assets/img/proyectos/reparaciones-y-acabados-especiales/stone-texture-background.jpg",
           "alt": "Encuentro entre revestimientos de textura pétrea",
           "width": 2703,
           "height": 2203
@@ -423,43 +423,43 @@
       "serviceHref": "../servicios/instalaciones-revestimientos/",
       "gallery": [
         {
-          "src": "Suelos/Suelos-10.jpg",
+          "src": "../assets/img/proyectos/suelos/suelos-10.jpg",
           "alt": "Suelo en tonos claros en un salón con iluminación perimetral",
           "width": 1200,
           "height": 804
         },
         {
-          "src": "Suelos/Suelos-2.jpg",
+          "src": "../assets/img/proyectos/suelos/suelos-2.jpg",
           "alt": "Suelo claro en un salón abierto junto a una escalera",
           "width": 1200,
           "height": 772
         },
         {
-          "src": "Suelos/Suelos-3.jpg",
+          "src": "../assets/img/proyectos/suelos/suelos-3.jpg",
           "alt": "Suelo de un salón comedor con cocina abierta",
           "width": 1200,
           "height": 838
         },
         {
-          "src": "Suelos/Suelos-4.jpg",
+          "src": "../assets/img/proyectos/suelos/suelos-4.jpg",
           "alt": "Suelo claro con detalles oscuros en una cocina abierta al salón",
           "width": 1200,
           "height": 801
         },
         {
-          "src": "Suelos/Suelos-6.jpg",
+          "src": "../assets/img/proyectos/suelos/suelos-6.jpg",
           "alt": "Suelo con vetas grises en un salón de grandes ventanales",
           "width": 1200,
           "height": 800
         },
         {
-          "src": "Suelos/Suelos-8.jpg",
+          "src": "../assets/img/proyectos/suelos/suelos-8.jpg",
           "alt": "Suelo brillante en tonos claros en una zona de estar",
           "width": 1200,
           "height": 815
         },
         {
-          "src": "Suelos/Suelos-11.jpg",
+          "src": "../assets/img/proyectos/suelos/suelos-11.jpg",
           "alt": "Suelo en tonos naturales en una cocina abierta con vistas al jardín",
           "width": 1200,
           "height": 800

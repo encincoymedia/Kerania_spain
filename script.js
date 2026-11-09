@@ -307,7 +307,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // Preload hero image for performance
   // ---------------------------------------------------------------
   const heroImg = new Image();
-  heroImg.src = 'Imagenes/image_hero.jpg';
+  heroImg.src = 'assets/img/generales/image-hero.jpg';
 
 
 
